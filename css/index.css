@@ -1,0 +1,33 @@
+* {
+  font-family: "Delius", cursive;
+  font-size: 24px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Bubblegum Sans", cursive;
+  color: #2f327d;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 54px;
+}
+
+h3 {
+  font: 40px;
+}
+
+.font18 {
+  font-size: 18px;
+}
+
+.font22 {
+  font-size: 22px;
+}
+
+
