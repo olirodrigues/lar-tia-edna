@@ -1,0 +1,79 @@
+* {
+  font-family: 'Delius', cursive;
+  font-size: 62.5%;
+  background-color: #16c8ff;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Bubblegum Sans', cursive;
+  color: #2f327d;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: -34px;
+}
+
+#corte {
+  max-width: 100%;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navegador {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 3rem;
+}
+
+.li {
+  margin-right: 56px;
+  margin-top: -34px;
+}
+
+#btnUm {
+  border-radius: 80px;
+  background-color: #d6024e;
+  color: #fff;
+  width: 160px;
+  height: 60px;
+  margin-top: -48px;
+}
+
+#nuvensUm {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 74px;
+}
+
+#nuvensDois {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 91px;
+}
+
+#main {
+  margin-top: 95px;
+  font-size: 3rem;
+  margin-left: 115px;
+  margin-right: 50px;
+}
+#boxDoacoes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(375px, 2fr));
+  grid-gap: 132px;
+  margin-left: 100px;
+}
+
+.doacoes {
+  font-size: 4rem;
+  display: flex;
+  flex-direction: column;
+}
