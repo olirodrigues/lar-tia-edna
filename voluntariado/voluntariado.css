@@ -1,7 +1,8 @@
 * {
   font-family: 'Delius', cursive;
   font-size: 62.5%;
-  background-color: #16c8ff;
+  background-color: #20b6e4;
+  margin: 0%;
 }
 
 h1,
@@ -13,7 +14,7 @@ h3 {
 
 h1 {
   font-size: 4rem;
-  margin-top: -34px;
+  margin-top: 0px;
 }
 
 #corte {
@@ -23,7 +24,9 @@ h1 {
 #header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 60px;
 }
 
 .navegador {
@@ -35,45 +38,83 @@ h1 {
 
 .li {
   margin-right: 56px;
-  margin-top: -34px;
+  margin-top: 0px;
 }
 
 #btnUm {
+  font-family: Poppins;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  background: #d6024e;
   border-radius: 80px;
-  background-color: #d6024e;
-  color: #fff;
-  width: 160px;
-  height: 60px;
-  margin-top: -48px;
+  box-shadow: 1px 1px 1px rgb(29, 29, 29);
+  border: none;
+  margin-top: -15px;
 }
 
 #nuvensUm {
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 74px;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 
-#nuvensDois {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 91px;
+#nuvemTres {
+  margin-top: 54px;
+  margin-left: 103px;
+  margin-right: 50%;
 }
 
 #main {
   margin-top: 95px;
   font-size: 3rem;
-  margin-left: 115px;
-  margin-right: 50px;
+  text-align: center;
+  margin-bottom: 60px;
 }
+
 #boxDoacoes {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(375px, 2fr));
-  grid-gap: 132px;
-  margin-left: 100px;
+  justify-items: center;
 }
 
 .doacoes {
-  font-size: 4rem;
-  display: flex;
-  flex-direction: column;
+  font-size: 3rem;
+}
+
+.separacao {
+  margin-bottom: 30px;
+}
+
+#mainDois {
+  margin-top: 40px;
+  font-size: 3rem;
+  margin-left: 60px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+#copyright {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 1.2rem;
+  margin-left: 50px;
+  background-color: transparent;
+}
+
+#devs {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 1.2rem;
+  margin-right: 50px;
+  background-color: transparent;
+  text-decoration: none;
 }
