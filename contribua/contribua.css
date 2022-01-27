@@ -143,6 +143,44 @@ img {
   font-size: 1.563rem;
 }
 
+#volunt {
+  position: absolute;
+  top: 20%;
+  left: 500px;
+  margin-left: 100px;
+  background-color: transparent;
+  text-align: start;
+}
+
+#tituloVolunt {
+  background-color: transparent;
+  margin-bottom: 15px;
+  font-size: 2.5rem;
+}
+
+#textVolunt {
+  background-color: transparent;
+  font-size: 1.563rem;
+}
+
+#btnTres {
+  font-family: Poppins;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  background: #d6024e;
+  border-radius: 80px;
+  box-shadow: 1px 1px 1px rgb(29, 29, 29);
+  border: none;
+  cursor: pointer;
+  transition: all 300ms ease-out;
+  margin-left: 90px;
+  font-size: 1.5rem;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
 #form {
   position: absolute;
   top: 20%;
