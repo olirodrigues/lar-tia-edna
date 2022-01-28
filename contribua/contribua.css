@@ -59,7 +59,7 @@ h1 {
 #btnUm:hover {
   transform: scale(1.1);
   background-position: left bottom;
-  background-color: #d6024e;
+  background-color: #6b535c;
   color: #ffffff;
 }
 
@@ -269,4 +269,262 @@ img {
   margin-right: 50px;
   background-color: transparent;
   text-decoration: none;
+}
+
+
+/* Responsividade :D */
+
+@media only screen and (max-width: 2560px) {
+
+  #corte {
+    margin-left: 13%;
+  }
+
+  #header {
+    margin: 0 17.5% 0 0 ;
+  }
+
+  #header h1{
+    margin-left: 20% ;
+  }
+
+  #nuvensUm {
+    justify-content: space-between;
+    padding: 0 28% 0 22.5%
+  }
+  
+  #nuvemTres {
+    margin-left: 16.5%;
+    margin-right: 51%;
+  }
+  
+  #boxDoacoes {
+  margin: 2% 17% 0 18%;
+  } 
+
+  #mainDois {
+  margin-top: 1.5%
+  }
+
+  .container {
+    left: -5.5%;
+  }
+  
+  #endereco {
+    /* left: 6.5%; */
+    left: 19%;
+  }
+  
+  
+  #volunt {
+    left: 45%;
+  }
+  
+  #form {
+    right: 8.7%;
+  }
+  
+  ::placeholder {
+    color: #000;
+    padding-left: 5%;
+  }  
+  
+  #copyright {
+    left: 22%;
+  }
+  
+  #devs {
+    right: 8.5%;
+}
+}
+@media only screen and (max-width: 1920px) {
+
+  #corte {
+    margin-left: 1.5%;
+  }
+
+  #header {
+    margin: 0 5% 0 0 ;
+  }
+
+  #header h1{
+    margin-left: 5% ;
+  }
+
+  #nuvensUm {
+    justify-content: space-between;
+    padding: 0 19% 0 13.5%
+  }
+  
+  #nuvemTres {
+    margin-left: 87px;
+    margin-right: 68%;
+  }
+
+  #mainDois{
+    margin-top: 1.7%;
+  }
+  
+  .container {
+    left: -1.5%;
+  }
+  
+  #endereco {
+    /* left: 6.5%; */
+    left: 2%;
+  }
+  
+  
+  #volunt {
+    left: 35%;
+  }
+  
+  #form {
+    right: 2%;
+  }
+  
+  ::placeholder {
+    color: #000;
+    padding-left: 5%;
+  }  
+  
+  #copyright {
+    left: 4%;
+  }
+  
+  #devs {
+    right: 1.5%;
+}
+}
+@media only screen and (max-width: 1366px) {
+
+  #corte {
+    width: 97%;
+  }
+
+  #header {
+    margin: 0 6% 0 0 ;
+  }
+
+  #header h1{
+    margin-left: 6% ;
+  }
+
+  #nuvensUm {
+    justify-content: space-between;
+    padding: 0 26% 0 18%
+  }
+  
+  #nuvemTres {
+    margin-left: 6%;
+    margin-right: 58.5%;
+  }
+
+  #main {
+    margin: 95px 60px 60px 45px
+  }
+
+  #mainDois {
+    padding-top: 7%
+  }
+
+  #boxDoacoes {
+    margin: 2% 3% 0 3%;
+    } 
+
+  .container {
+    left: -2.3%;
+    width: 103%;
+  }
+  
+  #endereco {
+    /* left: 6.5%; */
+    left: 0.5%;
+  }
+  
+  
+  #volunt {
+    left: 34%;
+  }
+  
+  #form {
+    right: 1%;
+  }
+  
+  ::placeholder {
+    color: #000;
+    padding-left: 5%;
+  }  
+  
+  #copyright {
+    left: 4%;
+  }
+  
+  #devs {
+    right: 1.5%;
+}
+}
+@media only screen and (max-width: 1280px) {
+
+  #corte {
+    width: 97%;
+  }
+
+  #header {
+    margin: 0 6% 0 0 ;
+  }
+
+  #header h1{
+    margin-left: 6% ;
+  }
+
+  #nuvensUm {
+    justify-content: space-between;
+    padding: 0 29% 0 18%
+  }
+  
+  #nuvemTres {
+    margin-left: 6%;
+    margin-right: 57.5%;
+  }
+
+  #main {
+    margin: 95px 60px 60px 45px
+  }
+
+  #mainDois {
+    padding-top: 5%
+  }
+
+  .container {
+    left: -2.3%;
+    width: 103%;
+  }
+  
+  #endereco {
+    /* left: 6.5%; */
+    left: 0%;
+  }
+  
+  
+  #volunt {
+    left: 31%;
+  }
+  
+  #form {
+    right: 1%;
+  }
+  
+  ::placeholder {
+    color: #000;
+    padding-left: 5%;
+  }  
+  
+  #copyright {
+    left: 4%;
+  }
+  
+  #devs {
+    right: 2.5%;
+}
 }
