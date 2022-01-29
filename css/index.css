@@ -46,6 +46,10 @@ textarea {
   margin-bottom: 20px;
 }
 
+ul {
+  list-style: none;
+}
+
 button {
   font-family: Poppins;
   color: #ffffff;
@@ -61,4 +65,17 @@ button:hover {
   background-position: left bottom;
   background-color: #a0023c;
   color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #a0023c;
 }
