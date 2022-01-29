@@ -528,3 +528,102 @@ img {
     right: 2.5%;
 }
 }
+@media only screen and (max-width: 1024px) {
+
+  #corte {
+    width: 96.5%;
+ 
+  }
+
+  #header {
+    margin: 0 7% 0 0 ;
+  }
+
+  .navegador {
+    font-size: 22px;
+  }
+
+  .li {
+    margin: 0 20px 0 0
+  }
+
+  #header h1{
+    margin-left: 8% ;
+    font-size: 30px;
+  }
+
+  #nuvensUm {
+    justify-content: space-between;
+    padding: 0 28% 0 21%
+  }
+  
+  #nuvemTres {
+    margin-left: 7.3%;
+    margin-right: 47%;
+  }
+
+  #main {
+    margin: 35px 60px 60px 45px
+  }
+
+
+
+  #boxDoacoes {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 0 7% 0 7%;
+    
+    } 
+
+  #mainDois {
+    padding-top: 7%
+  }
+
+  .container {
+
+    left: -2.6%;
+    width: 103.6%;
+  
+  }
+  
+  #endereco {
+    /* left: 6.5%; */
+    left: 0%;
+  }
+  
+  
+  #volunt {
+    left: 31%;
+  }
+  
+  #form {
+    width: 25%;
+  }
+  
+  #mensagem {
+    font-size: 20px;
+  }
+
+  #text {
+    height: 35px;
+  }
+
+  #volunt {
+    margin-left: 20px;
+    margin-bottom: 35px;
+  }
+
+  ::placeholder {
+    color: #000;
+    padding-left: 5%;
+  }  
+  
+  #copyright {
+    left: 4%;
+  }
+  
+  #devs {
+    right: 2.5%;
+}
+}
