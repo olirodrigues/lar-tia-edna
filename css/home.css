@@ -1,22 +1,6 @@
-.h3-rosa,
-.h3-laranja,
-.h3-verde {
-  font-family: "Bubblegum Sans", cursive;
-  font-size: 3rem;
-  margin-bottom: 28px;
-}
-
-.h3-rosa {
-  color: #d6024e;
-}
-
-.h3-laranja {
-  color: #f48c06;
-}
-
-.h3-verde {
-  color: #5beb7b;
-}
+/********************************************/
+/****************** HEADER ******************/
+/********************************************/
 
 header {
   display: grid;
@@ -69,6 +53,30 @@ header {
 
 #headerVideo img {
   height: 30px;
+}
+
+/********************************************/
+/****************** MAIN ******************/
+/********************************************/
+
+.h3-rosa,
+.h3-laranja,
+.h3-verde {
+  font-family: "Bubblegum Sans", cursive;
+  font-size: 3rem;
+  margin-bottom: 28px;
+}
+
+.h3-rosa {
+  color: #d6024e;
+}
+
+.h3-laranja {
+  color: #f48c06;
+}
+
+.h3-verde {
+  color: #5beb7b;
 }
 
 main {
@@ -173,4 +181,72 @@ main {
   align-items: center;
 }
 
+/********************************************/
+/****************** FOOTER ******************/
+/********************************************/
 
+footer {
+  display: grid;
+}
+
+#rodape1 {
+  grid-row: 1 / 3;
+  grid-column: 1;
+}
+
+#rodape1 img {
+  width: 100%;
+}
+
+#rodape2 {
+  grid-row: 1 / 3;
+  grid-column: 1 / 2;
+  display: flex;
+}
+
+#rodape2 form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 25%;
+}
+
+#rodape2 h4 {
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border-width: 1px;
+  text-align: start;
+}
+
+#rodape3 {
+  grid-row: 2 / 3;
+  grid-column: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-bottom: 5px;
+}
+
+#rodape3 a,
+#rodape3 p {
+  margin-bottom: 0;
+  font-size: 1.1rem;
+}
+
+#rodape3 a {
+  text-decoration: none;
+}
+
+#rodape3 a:visited {
+  color: black;
+}
+
+#rodape3 a:hover {
+  color: #a0023c;
+}
