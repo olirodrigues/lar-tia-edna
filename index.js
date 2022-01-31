@@ -9,7 +9,6 @@ enviarContato.addEventListener("click", (e) => {
     alert("Preencha todos os campos do formulário.");
   } else {
     alert("Sucesso! Formulário enviado!");
-    console.log(`${nome.value} + ${email.value} + ${mensagem.value}`);
     nome.value = "";
     email.value = "";
     mensagem.value = "";
