@@ -50,7 +50,8 @@ ul {
   list-style: none;
 }
 
-button {
+button,
+#enviar-contato {
   font-family: Poppins;
   color: #ffffff;
   padding: 10px 20px;
@@ -60,7 +61,8 @@ button {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-button:hover {
+button:hover,
+#enviar-contato:hover {
   transform: scale(1.1);
   background-position: left bottom;
   background-color: #a0023c;

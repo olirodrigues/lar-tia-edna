@@ -209,7 +209,16 @@
       </div>
 
       <div id="rodape2">
-        <form id="form-contato">
+        <form
+          action="https://api.staticforms.xyz/submit"
+          method="post"
+          id="form-contato"
+        >
+          <input
+            type="hidden"
+            name="accessKey"
+            value="5615dd8e-6456-404f-8158-570b285369d8"
+          />
           <h4>Contato</h4>
           <input
             type="text"
@@ -226,13 +235,13 @@
             required
           />
           <textarea
-            name="text"
+            name="message"
             id="mensagem"
             cols="30"
             rows="5"
             placeholder="Mensagem"
           ></textarea>
-          <button id="enviar-contato">Enviar</button>
+          <input type="submit" id="enviar-contato" value="Enviar" />
         </form>
       </div>
 
@@ -256,6 +265,6 @@
     <script>
       new window.VLibras.Widget("https://vlibras.gov.br/app%27");
     </script>
-    <script src="index.js"></script>
+    <!-- <script src="index.js"></script> -->
   </body>
 </html>

@@ -222,8 +222,9 @@ footer {
   letter-spacing: 0.1em;
 }
 
-input,
-textarea {
+#nome,
+#emailBotton,
+#mensagem {
   padding: 10px;
   border-radius: 8px;
   border-width: 1px;
