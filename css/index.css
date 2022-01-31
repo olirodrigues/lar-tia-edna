@@ -1,33 +1,81 @@
 * {
+  margin: 0;
+  padding: 0;
   font-family: "Delius", cursive;
-  font-size: 24px;
+  font-size: 62.5%;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "Bubblegum Sans", cursive;
   color: #2f327d;
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 4rem;
 }
 
 h2 {
-  font-size: 54px;
+  font-size: 3.5rem;
+  margin-bottom: 28px;
 }
 
 h3 {
-  font: 40px;
+  font-size: 3rem;
+  margin-bottom: 28px;
 }
 
-.font18 {
-  font-size: 18px;
+h4 {
+  font-size: 4rem;
+  margin-bottom: 28px;
+  color: #ffffff;
 }
 
-.font22 {
-  font-size: 22px;
+.h3-rosa {
+  color: #d6024e;
 }
 
+p,
+li,
+button,
+input,
+textarea {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
 
+ul {
+  list-style: none;
+}
+
+button {
+  font-family: Poppins;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  background: #d6024e;
+  border-radius: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-position: left bottom;
+  background-color: #a0023c;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #a0023c;
+}
