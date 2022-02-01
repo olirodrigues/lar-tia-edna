@@ -79,3 +79,45 @@ a:visited {
 a:hover {
   color: #a0023c;
 }
+
+/****************************************************/
+/****************** RESPONSIVIDAED ******************/
+/****************************************************/
+
+@media only screen and (max-width: 1920px) {
+  * {
+    font-size: 82.5%;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  * {
+    font-size: 72.5%;
+  }
+}
+
+@media only screen and (max-width: 1440px) { 
+  * {
+    font-size: 62.5%;
+  }
+
+@media only screen and (max-width: 1280px) {
+  * {
+    font-size: 52.5%;
+  }
+  
+}
+
+}
+
+@media only screen and (max-width: 1024px) {
+  * {
+    font-size: 52.5%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  * {
+    font-size: 42.5%;
+  }
+}
