@@ -244,3 +244,140 @@ textarea {
   margin-bottom: 0;
   font-size: 1.1rem;
 }
+
+
+/****************************************************/
+/****************** RESPONSIVIDAED ******************/
+/****************************************************/
+
+@media only screen and (max-width: 1920px) {
+
+  #navegador {
+    margin-top: 1%;
+    margin-left: 30%;
+}
+#menu h1 {
+  margin-top: 1%;
+}
+#sobreFoto {
+  width: 310px;
+  margin-left: 30%;
+}
+}
+
+@media only screen and (max-width: 1600px) {
+
+  #navegador {
+    margin-top: 1%;
+    margin-left: 18%;
+}
+#menu h1 {
+  margin-top: 1%;
+}
+#sobreFoto {
+  width: 260px;
+  margin-left: 30%;
+}
+}
+
+@media only screen and (max-width: 1280px) {
+  
+  #navegador {
+    margin-top: 1%;
+    margin-left: 18%;
+    margin-right: -3%;
+}
+
+  #menu h1 {
+    margin-top: 1%;
+    margin-left: -3%;
+  }
+  #sobreFoto {
+    width: 220px;
+    margin-left: 30%;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+  #navegador {
+    margin-top: 0.2%;
+    margin-left: 13%;
+    margin-right: -5%;
+}
+
+  #menu h1 {
+    margin-top: 0.2%;
+    margin-left: -3%;
+    font-size: 33px;
+  }
+  #sobreFoto {
+    width: 250px;
+    margin-left: 0%;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+  #navegador {
+    margin-top: 0.2%;
+    margin-left: 3%;
+    margin-right: -10%;
+}
+
+  #menu h1 {
+    margin-top: 0.2%;
+    margin-left: -7%;
+    font-size: 26px;
+  }
+#sobreFoto {
+  width: 200px;
+}
+
+}  
+
+@media only screen and (max-width: 768px) {
+  #sobreFoto {
+    margin-top: 10%;
+  }
+
+}
+
+@media only screen and (max-width: 720px) {
+
+  #navegador {
+    margin-top: 0.2%;
+    margin-left: 10%;
+    margin-right: -15%;
+}
+
+  #menu h1 {
+    margin-top: 0.2%;
+    margin-left: -14%;
+
+  }
+  #sobreFoto {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+
+  #navegador {
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: -15%;
+}
+
+  #menu h1 {
+    margin-top: 0.2%;
+    margin-left: -14%;
+
+  }
+  #sobreFoto {
+    margin-top: 10%;
+  }
+
+}
