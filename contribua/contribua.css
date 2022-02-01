@@ -279,7 +279,6 @@ img {
 
   #header h1 {
     margin-left: 3%;
-  
   }
   
   .navegador {
@@ -466,6 +465,113 @@ img {
     }
 
   }
+  @media only screen and (max-width: 800px) {
+    #header h1 {
+      margin-left: 3%;
+    }
+
+    .navegador {
+      margin-top: 15px;
+      font-size: 16px;
+      margin-left: 70%;
+    }
+
+    .li {
+      margin-right: 15%;
+    }
+    #nuvensUm {
+      margin-left: 10%;
+    }
+    .nuvens {
+      width: 130px;
+    }
+
+    #main {
+      font-size: 16px;
+    }
+    .doacoes {
+      font-size: 20px;
+    }
+    #mainDois {
+      font-size: 16px;
+    }
+   
+    #endereco {
+      margin-left: 3%;
+    }
+
+    #volunt {
+      margin-left: -27%;
+
+    }
+    #form {
+      margin-right: 5%;
+    }
+
+    #separaEndereco {
+      font-size: 16px;
+    }
+    #separaTexto{
+      font-size: 14px;
+    }
+
+    #separaFone {
+      font-size: 14px;
+    }
+
+    #tituloVolunt {
+      font-size: 16px;
+      
+    }
+
+    #textVolunt {
+      font-size: 14px;
+      max-width: 200px;
+    }
+
+    #btnTres {
+      font-size: 12px;
+      margin-left: 10%;
+
+    }
+
+    #mensagem {
+      font-size: 16px;
+    }
+    #name {
+      font-size: 14px;
+      height: 30px;
+      margin-bottom: 15px;
+    }
+
+    #email {
+      font-size: 14px;
+      height: 30px;
+      margin-bottom: 15px;
+    }
+
+    #text {
+      font-size: 14px;
+      height: 30px;
+      margin-bottom: 10px;
+    }
+
+    #btnDois {
+      font-size: 12px;
+    }
+
+
+
+    #copyright {
+      font-size: 9px;
+      margin-bottom: -0.5%
+    }
+
+    #devs {
+      margin-bottom: -0.7%
+    }
+
+  }
 
   @media only screen and (max-width: 768px) {
     #header h1 {
@@ -630,4 +736,93 @@ img {
     #text {
       margin-bottom: 3%;
     }
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    
+    #header {
+      margin: 0 0 0 0
+    }
+    #header h1 {
+      font-size: 20px;
+      margin-right: 0%
+    }
+    
+    .navegador {
+      margin-right: 4%;
+    }
+    .nuvens {
+      width: 100px;
+      height: 100px;
+    }
+    #main {
+      font-size: 14px;
+    }
+
+    .doacoes {
+      font-size: 17px;
+    }
+
+    #mainDois{
+      font-size: 14px;
+    }
+    
+    #volunt {
+      margin-left: -50%;
+    }
+    
+    #form {
+      margin-right: 0%;
+    }
+
+    #btnDois {
+      font-size: 8px;
+    }
+
+    #btnTres {
+      font-size: 8px;
+    }
+    #separaEndereco {
+      font-size: 16px;
+    }
+
+    #separaTexto {
+      font-size: 13px;
+    }
+
+    #separaFone {
+      font-size: 13px;
+    }
+
+    #tituloVolunt {
+      font-size: 16px;
+    }
+
+    #textVolunt {
+      font-size: 13px;
+    }
+
+    #mensagem {
+      font-size: 15px;
+      margin-bottom: 2%;
+    }
+
+    #name {
+      margin-bottom: 10px;
+      width: 140px;
+      height: 20px;
+    }
+
+    #email {
+      margin-bottom: 10px;
+      width: 140px;
+      height: 20px;
+    }
+
+    #text {
+      margin-bottom: 10px;
+      width: 140px;
+      height: 20px;
+        }
   }
