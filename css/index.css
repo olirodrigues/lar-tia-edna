@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Delius", cursive;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 h1,

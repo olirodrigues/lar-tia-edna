@@ -12,16 +12,13 @@
       href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Delius&family=Poppins:wght@600&display=swap"
       rel="stylesheet"
     />
-
     <title>Lar Tia Edna</title>
   </head>
-
   <body>
     <header>
       <div id="header1">
         <img id="headerImg" src="./img/home-header.svg" alt="" />
       </div>
-
       <div id="header2">
         <nav id="menu">
           <h1>Lar Tia Edna</h1>
@@ -39,7 +36,7 @@
               <a href="#objetivos">Objetivos</a>
             </li>
             <li>
-              <a href="">Voluntariado</a>
+              <a href="/src/pages/voluntariado.html">Voluntariado</a>
             </li>
             <li>
               <a href="#form-contato">Contato</a>
@@ -48,7 +45,6 @@
           </ul>
         </nav>
       </div>
-
       <div id="header3">
         <div>
           <h2>Um lar que acolhe, ajuda e faz a diferença</h2>
@@ -60,14 +56,11 @@
         </div>
       </div>
     </header>
-
     <main>
       <section id="sobre">
         <!-- Sobre o Lar Tia Edna -->
-
         <div id="sobre1">
           <h3><span class="h3-rosa">Sobre</span> o Lar Tia Edna</h3>
-
           <p class="paragrafo18">
             O Lar fui fundado em 1957, por uma missionária americana chamada
             Edna Deakins. Sua maior motivação foi devida a um pequeno bebê que
@@ -76,14 +69,12 @@
             do “Lar Tia Edna”.
           </p>
         </div>
-
         <!-- Aqui tem uma linha dividindo as duas informações -->
         <div id="sobre2">
           <img
             src="./img/sobre-tia-edna.png"
             alt="Tia Edna segurando uma criança no colo"
           />
-
           <div>
             <p class="font18">
               Edna Deakins viu a necessidade do Brasil em relação a menores
@@ -119,12 +110,10 @@
               Edna) e sua esposa Nilma, e o mesmo é sustentado através de
               doações e amigos.
             </p>
-
             <button>Saiba como nos ajudar</button>
           </div>
         </div>
       </section>
-
       <section id="finalidade">
         <!-- Finalidade -->
         <div id="finalidade1">
@@ -134,7 +123,6 @@
               >prestar assistência biopssiocossocial e espiritual</span
             >
           </h3>
-
           <p>
             Às crianças sem família natural e/ou que possuindo a mesma não
             dispõe de recursos financeiros ou emocional pra oferecer-lhe suporte
@@ -154,10 +142,8 @@
             estarem aptas para desempenharem o seu papel de cidadania.
           </p>
         </div>
-
         <div id="finalidade2">
           <img src="./img/fundo-video.png" alt="" />
-
           <div>
             <iframe
               src="https://www.youtube.com/embed/s-sGqbbgQdc"
@@ -169,7 +155,6 @@
           </div>
         </div>
       </section>
-
       <section id="objetivos">
         <!-- Objetivos -->
         <div id="objetivos1">
@@ -201,24 +186,17 @@
         </div>
       </section>
     </main>
-
     <footer id="rodape">
       <!-- rodapé -->
       <div id="rodape1">
         <img src="./img/home-footer.svg" alt="" />
       </div>
-
       <div id="rodape2">
         <form
-          action="https://api.staticforms.xyz/submit"
-          method="post"
+          action="https://formsubmit.co/analuizamarques89@gmail.com"
+          method="POST"
           id="form-contato"
         >
-          <input
-            type="hidden"
-            name="accessKey"
-            value="5615dd8e-6456-404f-8158-570b285369d8"
-          />
           <h4>Contato</h4>
           <input
             type="text"
@@ -241,10 +219,10 @@
             rows="5"
             placeholder="Mensagem"
           ></textarea>
-          <input type="submit" id="enviar-contato" value="Enviar" />
+          <input type="hidden" name="_captcha" value="false" />
+          <button type="submit" id="enviar-contato">Enviar</button>
         </form>
       </div>
-
       <div id="rodape3">
         <strong>
           <p>© Copyright © 2022 Lar Tia Edna. Todos os direitos reservados.</p>
@@ -254,17 +232,17 @@
         </strong>
       </div>
     </footer>
-
-    <div vw class="enabled">
-      <div vw-access-button class="active"></div>
-      <div vw-plugin-wrapper>
-        <div class="vw-plugin-top-wrapper"></div>
+    <div>
+      <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
       </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget("https://vlibras.gov.br/app");
+      </script>
     </div>
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js%22%3E"></script>
-    <script>
-      new window.VLibras.Widget("https://vlibras.gov.br/app%27");
-    </script>
-    <!-- <script src="index.js"></script> -->
   </body>
 </html>

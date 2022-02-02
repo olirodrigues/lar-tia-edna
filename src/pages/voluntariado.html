@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="voluntariado.css" width="100%" />
+    <link rel="stylesheet" href="/css/voluntariado.css" width="100%" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Delius&display=swap" rel="stylesheet">
@@ -56,31 +56,31 @@
           <div class="divider">
             <label id="namel" for="name">Nome completo<span style="color: #D6024E
               ; font-size: 1.875rem;">*</span></label>
-            <input type="text" name="name" id="name" required>
+            <input type="text" name="name" id="name" data-input="nome" required>
           </div>
           <div class="divider">
             <label id="phonel" for="phone">Telefone/Celular<span style="color: #D6024E
               ; font-size: 1.875rem;">*</span></label>
-            <input type="number" name="phone" id="phone" required>
+            <input type="number" name="phone" id="phone" data-input="telefone" required>
           </div>
         </div>
         <div class="formUm">
           <div class="divider">
             <label id="emaill" for="email">E-mail<span style="color: #D6024E
               ; font-size: 1.875rem;">*</span></label>
-            <input type="email" name="email" id="email" required>
+            <input type="email" name="email" id="email" data-input="email" required>
           </div>
           <div class="divider">
             <label id="CEPl" for="CEP">CEP<span style="color: #D6024E
               ; font-size: 1.875rem;">*</span></label>
-            <input type="number" name="CEP" id="CEP" required>
+            <input type="number" name="CEP" id="CEP" data-input="cep" required>
           </div>
         </div>
         <div class="formUm">
           <div class="divider">
             <label id="enderecol" for="endereco">Endereço<span style="color: #D6024E
               ; font-size: 1.875rem;">*</span></label>
-            <input type="text" name="endereco" id="enderecoForm" required>
+            <input type="text" name="endereco" id="enderecoForm" data-input="endereco" required>
           </div>
           <div class="divider">
             <label id="complementol" for="complemento">Complemento<span style="color: #D6024E
@@ -92,17 +92,17 @@
           <div class="divider">
             <label id="bairrol" for="endereco">Bairro<span style="color: #D6024E
               ; font-size: 1.875rem;">*</span></label>
-            <input type="text" name="bairro" id="bairro" required>
+            <input type="text" name="bairro" id="bairro" data-input="bairro" required>
           </div>
           <div class="divider">
             <label id="cidadel" for="endereco">Cidade<span style="color: #D6024E
               ; font-size: 1.875rem;">*</span></label>
-            <input type="text" name="cidade" id="cidade" required>
+            <input type="text" name="cidade" id="cidade" data-input="cidade" required>
           </div> 
           <div class="divider">
             <label id="estadol" for="endereco">Estado<span style="color: #D6024E
               ; font-size: 1.875rem;">*</span></label>
-            <input type="text" name="estado" id="estado" required>
+            <input type="text" name="estado" id="estado" data-input="estado" required>
           </div>
         </div>
       </form>
@@ -234,7 +234,7 @@
           <input type="text" name="meio" class="meio">
         </div>  
       </section>
-      <button id="btnDois">Enviar</button>
+      <button id="btnDois" data-serviço="enviar-form">Enviar</button>
     </main>
 
     <footer class="container">
@@ -272,5 +272,6 @@
       <p id="copyright">© Copyright © 2022 Lar Tia Edna. Todos os direitos reservados.</p>
       <a id="devs" href="">Desenvolvido por time 6 - Gama</a>
     </footer>
+    <script src="/src/components/volunteering.js" type="module"> </script>
   </body>
 </html>
