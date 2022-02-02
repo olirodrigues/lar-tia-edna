@@ -1,5 +1,5 @@
 * {
-  font-family: 'Delius', cursive;
+  font-family: "Delius", cursive;
   font-size: 70%;
   background-color: #fff;
   margin: 0%;
@@ -8,7 +8,7 @@
 h1,
 h2,
 h3 {
-  font-family: 'Bubblegum Sans', cursive;
+  font-family: "Bubblegum Sans", cursive;
   color: #2f327d;
 }
 
@@ -353,7 +353,7 @@ form {
 #contribua {
   position: absolute;
   top: 20%;
-  left: 500px;
+  left: 430px;
   margin-left: 100px;
   background-color: transparent;
   text-align: start;
