@@ -32,6 +32,82 @@ header {
   align-items: center;
 }
 
+.menuM {
+  display: none;
+  position: fixed;
+  left: 64.5%;
+  top: 0.4%;
+}
+
+.menuItens {
+  background-color: #70F4BD;
+  margin: 14% auto;
+  padding: 16%;
+  border: 1px solid #888;
+  border-radius: 7%;
+  width: 107%;
+  animation-name: animatetop;
+  animation-duration: 0.2s
+}
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+
+.homeMenu {
+  font-size: 1px;
+}
+
+.homeSobre {
+  font-size: 15px;
+}
+.homeSobreLi  {
+  margin-top: -20%;
+  margin-bottom: 10%;
+}
+
+.homeFinalidade {
+  font-size: 15px;
+}
+.homeFinalidadeLi {
+  margin-bottom: 10%;
+}
+.homeObjetivos {
+  font-size: 15px;
+}
+.homeObjetivosLi {
+  margin-bottom: 10%;
+}
+.homeVoluntariado {
+  font-size: 15px;
+}
+.homeVoluntariadoLi {
+  margin-bottom: 10%;
+}
+.homeContato {
+  font-size: 15px;
+}
+.homeContatoLi{
+  margin-bottom: 13%;
+}
+
+.iconeFechar {
+   float:left;
+   font-size: 20px;
+   margin-left: -39.5%;
+}
+
+#btnConMenu {
+  font-size: 11px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 7px;
+  padding-left: 7px;
+  margin-left: -3%;
+  margin-bottom: 4%;
+  box-shadow: none;
+}
+
 .navegador {
   display: flex;
   align-items: center;
@@ -51,6 +127,7 @@ header {
 
 .navegador .icone {
   display: none;
+  font-size: 20px;
 }
 
 #header3 {
@@ -398,6 +475,7 @@ textarea {
   display:none;
 }
 
+
 .navegador .icone {
   float: right;
   display: block;
@@ -427,8 +505,8 @@ font-size: 11px;
 }
 
 #sobre1 {
-margin-left: -53%;
-margin-right: -29%;
+margin-left: -73%;
+margin-right: -65%;
 }
 
 #sobre1 h3{
@@ -442,24 +520,22 @@ font-size: 15px;
 
 .paragrafo18 {
   font-size: 12px;
+  margin-left: -121%;
 }
   #sobreFoto {
     position: absolute;
+    margin-top: 0;
   }
 
   #sobreEdna{
-    padding-top: 260%;
-    margin-left: -120%;
-    margin-right: -23%;
+    padding-top: 280%;
+    margin-left: -130%;
+    margin-right: -53%;
     font-size: 18px;
   }
   
   #saibaMais{
     display: none;
-  }
-
-  .font18 {
-    font-size: 12px;
   }
 
   .hideText{
@@ -471,34 +547,77 @@ font-size: 15px;
     margin-left: 40%;
     padding: 1% 6% 1% 6%
   }
+#finalidade1 {
+  margin-left: -61%;
+  margin-right: -123%;
+}
+.finalidadeText {
+  margin-top: 70%;
+}
+#reduzFont {
+  font-size: 10px;
+  margin-right: -80%;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+#finalidade1 p{
+  margin-top: 0;
+  font-size: 12px;
+}
+#finalidade1 h3{
+margin-bottom: 10%;
+}
+#finalidade2 {
+  position: absolute;
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+  grid-template-columns: 15px 80% 15px;
+  margin-left: -17%;
+  margin-top: 19%;
+}
 
+#objetivos1 {
+  position: absolute;
+  top: 183%;
+  margin-left: -8%;
+  width: 70%;
+}
+#objetivos2 {
+margin-top: 210%;
+margin-left: -20%;
+}
+
+#form-contato h4{
+margin-top: 20%;
+font-size: 25px;
+margin-bottom: 3%;
+}
+
+#nome {
+height: 5px;
+margin-bottom: 10%;
+}
+#emailBotton {
+height: 5px;
+margin-bottom: 10%;
+}
+#mensagemInput {
+  height: 25px;
+  margin-bottom: 10%;
+}
+#form-contato button{
+padding: 5px 1px 5px 1px;
+}
+#rodape3 {
+margin-bottom: 0.5%;
+}
 
 }
 
 
 @media only screen and (max-width: 414px) {
-
-  .navegador.responsive {
-    position: relative;
-  }
-  
-  .navegador.responsive .icone {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .navegador.responsive .menuHome {
-    position: absolute;
-    font-size: 30px;
-  }
-
-
-  .navegador.responsive {
-    display: block;
-    float: none;
-    text-align: left;
-
-  }
 
  .hideText.aparece{
     display: block;

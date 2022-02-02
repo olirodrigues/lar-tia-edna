@@ -1,51 +1,52 @@
-function mobileMenu() {
 
-    let menuContato = document.querySelector('#contatoMenu')
-    let menuVoluntariado = document.querySelector('#voluntariadoMenu')
-    let menuObjetivos = document.querySelector('#objetivosMenu')
-    let menuFinalidade = document.querySelector('#finalidadeMenu')
-    let menuSobre = document.querySelector('#sobreMenu')
-    let btnContri = document.querySelector('#btnCont')
-    let menuItem = document.querySelector('.menuItens');
-    let iconezin = document.querySelector('.icone');
-    let menuMob = document.getElementById('meuNavegador');
-    if(menuMob.className === "navegador") {
-        menuMob.className += "responsive";
-        menuMob.style.cssText =
-        'left: 70%;' +
-        'top: 2%;' +
-        'position: absolute;' +
-        'background-color: #70F4BD;' 
-        iconezin.style.cssText = 
-        'position: absolute;'  +
-        'right: 0;' +
-        'top: 0;' +
-        'width: 200px'
-        menuItem.style.cssText =
-        'font-size: 15px;' +
-        'margin-bottom: 40px;'
-        btnContri.style.cssText =
-        'font-size: 10px;' +
-        'padding-top: 5px;' +
-        'padding-bottom: 5px;' +
-        'padding-right: 11px;' +
-        'padding-left: 11px;'
-        menuSobre.style.cssText = 
-        'font-size: 15px;'
-        menuFinalidade.style.cssText = 
-        'font-size: 15px;'
-        menuObjetivos.style.cssText = 
-        'font-size: 15px;'
-        menuVoluntariado.style.cssText = 
-        'font-size: 15px;'
-        menuContato.style.cssText = 
-        'font-size: 15px;'
+const menu = document.querySelector('#menuMobil')
+
+const btnAbre = document.querySelector('.icone')
+
+const btnFecha = document.querySelector('.iconeFechar')
+
+const btncontribua = document.querySelector('#btnCont')
 
 
-    } else {
-        menuMob.className = "navegador";
+
+const escondeHome = document.querySelector('.homeMenu')
+
+btnAbre.onclick = function() {
+    menu.style.display = "block"
+    btncontribua.style.display = "none"
+    btnAbre.style.display ="none"
+    escondeHome.style.display="none"
+}
+
+btnFecha.onclick = function() {
+    menu.style.display = "none"
+    btncontribua.style.display = "block"
+    btnAbre.style.display ="block"
+}
+
+window.onlick = function(event) {
+    if (event.target == modal) {
+        menu.style.display = "none";
+        btncontribua.style.display = "block"
+        btnAbre.style.display ="block"
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function lerMore() {
 

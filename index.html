@@ -28,25 +28,25 @@
           <h1>Lar Tia Edna</h1>
           <ul class="navegador" id="meuNavegador">
             <li>
-              <a class=" menuItens" href="index.html">Home</a>
+              <a href="index.html">Home</a>
             </li>
             <li>
-              <a id="sobreMenu" href="#sobre">Sobre o Lar</a>
+              <a href="#sobre">Sobre o Lar</a>
             </li>
             <li>
-              <a id="finalidadeMenu" href="#finalidade">Finalidade</a>
+              <a href="#finalidade">Finalidade</a>
             </li>
             <li>
-              <a id="objetivosMenu" href="#objetivos">Objetivos</a>
+              <a href="#objetivos">Objetivos</a>
             </li>
             <li>
-              <a id="voluntariadoMenu" href="">Voluntariado</a>
+              <a href="">Voluntariado</a>
             </li>
             <li>
-              <a id="contatoMenu" href="#form-contato">Contato</a>
+              <a href="#form-contato">Contato</a>
             </li>
             
-              <a href="javascript:void(0);" class="icone" onclick="mobileMenu()">
+              <a href="javascript:void(0);" class="icone" >
               <i class="fa fa-bars"></i>
               </a>
             
@@ -54,6 +54,33 @@
 
           </ul>
         </nav>
+      </div>
+      <div id="menuMobil" class="menuM">
+        <div class="menu-itens">
+          <a href="javascript:void(0);" class="iconeFechar" >
+            <i class="fa fa-bars"></i>
+          <ul class="menuItens" id="itensMenu">
+              </a>
+            <li class="homeMenuLi">
+              <a class="homeMenu" href="index.html">Home</a>
+            </li>
+            <li  class="homeSobreLi">
+              <a class="homeSobre" href="#sobre">Sobre o Lar</a>
+            </li>
+            <li class="homeFinalidadeLi">
+              <a class="homeFinalidade" href="#finalidade">Finalidade</a>
+            </li>
+            <li class="homeObjetivosLi">
+              <a class="homeObjetivos" href="#objetivos">Objetivos</a>
+            </li>
+            <li class="homeVoluntariadoLi">
+              <a class="homeVoluntariado" href="">Voluntariado</a>
+            </li>
+            <li  class="homeContatoLi">
+              <a class="homeContato" href="#form-contato">Contato</a>
+            </li>
+            <button id=btnConMenu>Contribua</button>
+        </div>
       </div>
 
       <div id="header3">
@@ -170,7 +197,7 @@
           <img src="./img/fundo-video.png" alt="" />
 
           <div>
-            <iframe
+            <iframe id="videoFinalidade"
               src="https://www.youtube.com/embed/s-sGqbbgQdc"
               title="YouTube video player"
               frameborder="0"
@@ -189,22 +216,22 @@
         <div id="objetivos2">
           <h3>Os <span class="h3-verde">nossos</span> objetivos e metas</h3>
           <ul>
-            <li class="font22" id="CMD">
+            <li class="font22" id="reduzFont">
               <img src="./img/icon-paper.png" class="icon" alt="" /> CMDCA
             </li>
-            <li class="font22" id="CMD">
+            <li class="font22" id="reduzFont" >
               <img src="./img/icon-calendar.png" class="icon" alt="" />
               Suporte para contas mensais: (água, gás, telefone, luz, etc…)
             </li>
-            <li class="font22" id="CMD">
+            <li class="font22" id="reduzFont" >
               <img src="./img/icon-work.png" class="icon" alt="" />
               Regulamentação
             </li>
-            <li class="font22" id="CMD">
+            <li class="font22" id="reduzFont" >
               <img src="./img/icon-home.png" class="icon" alt="" /> Casa de
               apoio para os jovens na maioridade
             </li>
-            <li class="font22" id="CMD">
+            <li class="font22" id="reduzFont">
               <img src="./img/icon-heart.png" class="icon" alt="" />
               Suporte para crianças com bolsa em escola particulares
             </li>
@@ -238,7 +265,7 @@
           />
           <textarea
             name="text"
-            id=""
+            id="mensagemInput"
             cols="30"
             rows="5"
             placeholder="Mensagem"
