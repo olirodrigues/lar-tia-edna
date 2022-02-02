@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/voluntariado.css" width="100%" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Delius&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Delius&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <title>Seja voluntário no Lar da Tia Edna</title>
+  </head>
+  <body>
+    <div>
+      <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app')
+      </script>
+    </div>
+
+    <header>
+      <img id="corte" src="../img/voluntariado-corte.svg" />
+      <div id="header">
+        <h1>Lar Tia Edna</h1>
+        <nav>
+          <div class="navegador">
+            <li class="li">Home</li>
+            <li class="li">Sobre o Lar</li>
+            <li class="li">Finalidade</li>
+            <li class="li">Objetivos</li>
+            <li class="li">Voluntariado</li>
+            <li class="li">Contato</li>
+            <button id="btnUm">Contribua</button>
+          <div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div id="voluntario">
+          <p id="volu">Voluntariado</p>
+          <img src="../img/voluntariado.svg" alt="Voluntária">
+        </div>
+      <form>
+        <div class="formUm">
+          <div class="divider">
+            <label id="namel" for="name">Nome completo<span style="color: #D6024E
+              ; font-size: 1.875rem;">*</span></label>
+            <input type="text" name="name" id="name" data-input="nome" required>
+          </div>
+          <div class="divider">
+            <label id="phonel" for="phone">Telefone/Celular<span style="color: #D6024E
+              ; font-size: 1.875rem;">*</span></label>
+            <input type="number" name="phone" id="phone" data-input="telefone" required>
+          </div>
+        </div>
+        <div class="formUm">
+          <div class="divider">
+            <label id="emaill" for="email">E-mail<span style="color: #D6024E
+              ; font-size: 1.875rem;">*</span></label>
+            <input type="email" name="email" id="email" data-input="email" required>
+          </div>
+          <div class="divider">
+            <label id="CEPl" for="CEP">CEP<span style="color: #D6024E
+              ; font-size: 1.875rem;">*</span></label>
+            <input type="number" name="CEP" id="CEP" data-input="cep" required>
+          </div>
+        </div>
+        <div class="formUm">
+          <div class="divider">
+            <label id="enderecol" for="endereco">Endereço<span style="color: #D6024E
+              ; font-size: 1.875rem;">*</span></label>
+            <input type="text" name="endereco" id="enderecoForm" data-input="endereco" required>
+          </div>
+          <div class="divider">
+            <label id="complementol" for="complemento">Complemento<span style="color: #D6024E
+              ; font-size: 1.875rem;">*</span> </label>
+            <input type="text" name="complemento" id="complemento" required>
+          </div>
+        </div>
+        <div class="formUm">
+          <div class="divider">
+            <label id="bairrol" for="endereco">Bairro<span style="color: #D6024E
+              ; font-size: 1.875rem;">*</span></label>
+            <input type="text" name="bairro" id="bairro" data-input="bairro" required>
+          </div>
+          <div class="divider">
+            <label id="cidadel" for="endereco">Cidade<span style="color: #D6024E
+              ; font-size: 1.875rem;">*</span></label>
+            <input type="text" name="cidade" id="cidade" data-input="cidade" required>
+          </div> 
+          <div class="divider">
+            <label id="estadol" for="endereco">Estado<span style="color: #D6024E
+              ; font-size: 1.875rem;">*</span></label>
+            <input type="text" name="estado" id="estado" data-input="estado" required>
+          </div>
+        </div>
+      </form>
+      </section>
+
+      <section class="selection">
+            <p class="questions">Como conheceu o Lar Tia Edna?</p>
+          <div class="options">
+            <input class="checkbox" type="checkbox" name="amigos" id="amigos">
+            <label for="amigos">Amigos</label>
+          </div>
+          <div class="options">
+            <input class="checkbox" type="checkbox" name="facebook" id="facebook">
+            <label for="facebook">Facebook</label>
+          </div>
+          <div class="options">
+            <input class="checkbox" type="checkbox" name="google" id="google">
+            <label for="google">Google</label>
+          </div>
+          <div class="options">
+            <input class="checkbox" type="checkbox" name="adocao" id="adocao">
+            <label for="adocao">Estou em processo de adoção</label>
+        </div>
+        <div>
+          <p class="meios">Outros meios:</p>
+          <input type="text" name="meio" class="meio">
+        </div>
+      </section>
+
+      <section class="selection">
+        <p class="questions">Em qual área gostaria de se voluntariar?<span style="color: #D6024E
+            ; font-size: 1.875rem;">*</span></p>
+        <div class="options">
+          <input class="checkbox" type="checkbox" name="reforco" id="reforco">
+          <label for="reforco">Reforço escolar</label>
+        </div>
+        <div class="options">
+          <input class="checkbox" type="checkbox" name="recreacao" id="recreacao">
+          <label for="recreacao">Recreação</label>
+        </div>
+        <div class="options">
+          <input class="checkbox" type="checkbox" name="cuidar" id="cuidar">
+          <label for="cuidar">Cuidado com crianças e casa</label>
+        </div>
+        <div>
+          <p class="meios">Outra:</p>
+          <input type="text" name="meio" class="meio">
+        </div>
+      </section>
+
+      <section class="selection">
+        <p class="questions">Se o seu interesse é fazer estágio não remunerado, em qual área seria?</p>
+          <div class="options">
+            <input class="checkbox" type="checkbox" name="psicologia" id="psicologia">
+            <label for="psicologia">Psicologia</label>
+          </div>
+          <div class="options">
+            <input class="checkbox" type="checkbox" name="pedagogia" id="padagogia">
+            <label for="pedagogia">Psicopedagogia / Pedagogia</label>
+          </div>
+          <div class="options">
+            <input class="checkbox" type="checkbox" name="nutricao" id="nutricao">
+            <label for="nutricao">Nutrição</label>
+          </div>
+          <div class="options">
+            <input class="checkbox" type="checkbox" name="fono" id="fono">
+            <label for="fono">Fonoaudiologia</label>
+        </div>
+        <div>
+          <p class="meios">Outra:</p>
+          <input type="text" name="meio" class="meio">
+        </div>
+      </section>
+
+      <section  class="selection">
+        <p class="questions">Quais são os seus dias disponíveis?<span style="color: #D6024E
+          ; font-size: 1.875rem;">*</span></p>
+        <div class="options">
+          <input class="checkbox" type="checkbox" name="segunda" id="segunda">
+          <label for="segunda">Segunda-feira</label>
+        </div>
+        <div class="options">
+          <input class="checkbox" type="checkbox" name="terca" id="terca">
+          <label for="terca">Terça-feira</label>
+        </div>
+        <div class="options">
+          <input class="checkbox" type="checkbox" name="quarta" id="quarta">
+          <label for="quarta">Quarta-feira</label>
+        </div>
+        <div class="options">
+          <input class="checkbox" type="checkbox" name="quinta" id="quinta">
+          <label for="quinta">Quinta-feira</label>
+        </div>
+        <div class="options">
+          <input class="checkbox" type="checkbox" name="sexta" id="sexta">
+          <label for="sexta">Sexta-feira</label>
+        </div>
+        <div class="options">
+          <input class="checkbox" type="checkbox" name="sabado" id="sabado">
+          <label for="sabado">Sábado</label>
+        </div>
+        <div class="options">
+          <input class="checkbox" type="checkbox" name="tododia" id="tododia">
+          <label for="tododia">Todos os dias</label>
+        </div>
+      </section>
+
+      <section class="selection">
+        <p class="questions">Nesses dias escolhidos, quais os horários disponíveis?<span style="color: #D6024E
+          ; font-size: 1.875rem;">*</span></p>
+        <div class="options">
+          <input class="checkbox" type="checkbox" name="manha" id="manha">
+          <label for="manha">Manhãs ( das  9h30 às 11h30 )</label>
+        </div>
+        <div class="options">
+          <input class="checkbox" type="checkbox" name="tarde" id="tarde">
+          <label for="tarde">Tardes ( das  15h00 às 17h00 )</label>
+        </div>
+        <div class="options">
+          <input class="checkbox" type="checkbox" name="noite" id="noite">
+          <label for="noite">Noites ( das  18h00 às 20h00 )</label>
+        </div>
+        <div class="options">
+          <input class="checkbox" type="checkbox" name="todos" id="todos">
+          <label for="todos">Todos os horários</label>
+        </div>
+        <div>
+          <p class="meios">Outros hórarios:</p>
+          <input type="text" name="meio" class="meio">
+        </div>  
+      </section>
+      <button id="btnDois" data-serviço="enviar-form">Enviar</button>
+    </main>
+
+    <footer class="container">
+      <img id="corte" src="../img/contribua- footer.svg" alt="">
+      <section>
+          <div id="endereco">
+            <p id="separaEndereco">Endereço</p>
+            <p id="separaTexto">Rua Luis Góes, 262
+              <br>São Paulo, SP, Brasil
+              <br>CEP: 04043-000</p>
+            <p id="separaFone">Fone: +55 (11) 2577-2043</p>
+          </div>
+
+          <div id="contribua">
+            <p id="tituloContribua">Contribua com o lar</p>
+            <p id="textContribua">Querendo cooperar com o lar e ajudar na <br>formação das crianças? Clique no botão e
+            <br> tenha mais informações.</p>
+            <button id="btnTres">Contribua</button>
+          </div>
+
+          <form id="form">
+            <p id="mensagem">Envie uma mensagem ao lar</p>
+            <div style="background-color: transparent;">
+              <input type="text" name="name" id="nome" placeholder="Nome" required>
+            </div>
+            <div style="background-color: transparent;">
+              <input type="email" name="email" id="emailBotton" placeholder="E-mail" required>
+            </div>
+            <div style="background-color: transparent;">
+              <input type="text" name="text" id="textBotton" placeholder="Mensagem" required>
+            </div>
+            <button id="btnQuatro">Enviar</button>
+          </form>
+      </section>
+      <p id="copyright">© Copyright © 2022 Lar Tia Edna. Todos os direitos reservados.</p>
+      <a id="devs" href="">Desenvolvido por time 6 - Gama</a>
+    </footer>
+    <script src="/src/components/volunteering.js" type="module"> </script>
+  </body>
+</html>
