@@ -100,7 +100,7 @@ a:hover {
   * {
     font-size: 62.5%;
   }
-
+}
 @media only screen and (max-width: 1280px) {
   * {
     font-size: 52.5%;
@@ -108,7 +108,6 @@ a:hover {
   
 }
 
-}
 
 @media only screen and (max-width: 1024px) {
   * {
@@ -119,5 +118,14 @@ a:hover {
 @media only screen and (max-width: 720px) {
   * {
     font-size: 42.5%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  * {
+    font-size: 42.5%;
+  }
+  li {
+    font-size: 2.5rem;
   }
 }
