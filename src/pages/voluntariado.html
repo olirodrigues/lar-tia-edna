@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Delius&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <script src="/src/components/volunteering.js" type="module"> </script>
     <title>Seja voluntário no Lar da Tia Edna</title>
   </head>
   <body>
@@ -51,7 +52,7 @@
           <p id="volu">Voluntariado</p>
           <img src="../img/voluntariado.svg" alt="Voluntária">
         </div>
-      <form>
+        <form action="https://formsubmit.co/kevinmg50@gmail.com" method="POST">
         <div class="formUm">
           <div class="divider">
             <label id="namel" for="name">Nome completo<span style="color: #D6024E
@@ -73,7 +74,7 @@
           <div class="divider">
             <label id="CEPl" for="CEP">CEP<span style="color: #D6024E
               ; font-size: 1.875rem;">*</span></label>
-            <input type="number" name="CEP" id="CEP" data-input="cep" required>
+            <input type="text" name="CEP" id="CEP" data-input="cep" required>
           </div>
         </div>
         <div class="formUm">
@@ -105,7 +106,6 @@
             <input type="text" name="estado" id="estado" data-input="estado" required>
           </div>
         </div>
-      </form>
       </section>
 
       <section class="selection">
@@ -115,7 +115,7 @@
             <label for="amigos">Amigos</label>
           </div>
           <div class="options">
-            <input class="checkbox" type="checkbox" name="facebook" id="facebook">
+            <input class="checkbox" type="checkbox" name="Facebook" id="facebook">
             <label for="facebook">Facebook</label>
           </div>
           <div class="options">
@@ -234,8 +234,9 @@
           <input type="text" name="meio" class="meio">
         </div>  
       </section>
-      <button id="btnDois" data-serviço="enviar-form">Enviar</button>
+      <button type="submit" id="btnDois" data-serviço="enviar-form">Enviar</button>
     </main>
+  </form>
 
     <footer class="container">
       <img id="corte" src="../img/contribua- footer.svg" alt="">
@@ -255,7 +256,7 @@
             <button id="btnTres">Contribua</button>
           </div>
 
-          <form id="form">
+          <form action="https://formsubmit.co/analuizamarques89@gmail.com" method="POST" id="form">
             <p id="mensagem">Envie uma mensagem ao lar</p>
             <div style="background-color: transparent;">
               <input type="text" name="name" id="nome" placeholder="Nome" required>
@@ -266,12 +267,11 @@
             <div style="background-color: transparent;">
               <input type="text" name="text" id="textBotton" placeholder="Mensagem" required>
             </div>
-            <button id="btnQuatro">Enviar</button>
+            <button type="submit" id="btnQuatro">Enviar</button>
           </form>
       </section>
       <p id="copyright">© Copyright © 2022 Lar Tia Edna. Todos os direitos reservados.</p>
       <a id="devs" href="">Desenvolvido por time 6 - Gama</a>
     </footer>
-    <script src="/src/components/volunteering.js" type="module"> </script>
   </body>
 </html>
