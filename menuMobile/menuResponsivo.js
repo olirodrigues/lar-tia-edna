@@ -31,23 +31,6 @@ window.onlick = function(event) {
         btnAbre.style.display ="block"
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function lerMore() {
 
     let textoEdna = document.getElementById('escondeText');
