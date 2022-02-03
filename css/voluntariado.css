@@ -1,7 +1,7 @@
 * {
   font-family: "Delius", cursive;
   font-size: 70%;
-  background-color: #fff;
+  background-color: #ffffff;
   margin: 0%;
 }
 
@@ -19,13 +19,15 @@ h1 {
 
 p,
 li,
-a,
 button,
 input,
 textarea {
-  font-size: 1.3rem;
-  margin-top: 30px;
-  text-decoration: none;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
 }
 
 button {
@@ -33,24 +35,10 @@ button {
   color: #ffffff;
   padding: 10px 20px;
   border: none;
+  cursor: pointer;
   background: #d6024e;
   border-radius: 80px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#btnUm {
-  font-family: Poppins;
-  font-weight: 600;
-  color: #ffffff;
-  padding: 10px 20px;
-  border: none;
-  background: #d6024e;
-  border-radius: 80px;
-  box-shadow: 1px 1px 1px rgb(29, 29, 29);
-  border: none;
-  cursor: pointer;
-  transition: all 300ms ease-out;
-  margin-top: -15px;
 }
 
 button:hover {
