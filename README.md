@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../screenshots\Lar Tia Edna.svg" width="40%" style="align-itens: center"/>
+  <img src="../screenshots/Lar Tia Edna.svg" width="40%" style="align-itens: center"/>
 </p>
 
 <p align="center">Um lar que acolhe, ajuda e faz
@@ -9,13 +9,10 @@ a diferença</p>
 
 <img src="https://img.shields.io/static/v1?label=Licença&message=LArTiaEdna&color=2f327d&style=for-the-badge&logo=ghost"/>
 <img src="https://img.shields.io/static/v1?label=Projeto&message=Gama Academy&color=68de5a&style=for-the-badge&logo=ghost"/>
-<style></style>
 <p><br></p>
 </div>
 
 ## ✅ Visão geral
-
----
 
 Esse é um projeto com o tema de voluntários digitais, onde os alunos da [Gama Academy](https://www.gama.academy/) foram desafiados a ajudar uma ONG levando transformação digital baseada em uma demanda real para a mesma. O grupo escolheu o Lar da Tia Edna para realizar esse desafio, buscando colocar em prática todo o aprendizado adquirido até então e auxiliar a ONG através da transformação tecnológica.
 
@@ -23,15 +20,11 @@ Esse é um projeto com o tema de voluntários digitais, onde os alunos da [Gama 
 
 ## ✅ Objetivo
 
----
-
 O objetivo principal do grupo é atuar na criação de um novo website que seja funcional e com um layout mais moderno, além de atualizar as redes sociais da ONG, com foco na criação de posts e layouts padronizados.
 
 <p><br></p>
 
 ## ✅ Funcionalidades
-
----
 
 - [x] Páginas atualizadas e funcionais.
 - [x] Utilização da API FormSubmit para envio dos formulários à ONG.
@@ -43,8 +36,6 @@ O objetivo principal do grupo é atuar na criação de um novo website que seja 
 
 ## ✅ Demonstração da aplicação
 
----
-
 A visualização do site também está disponível nesse [link]() através do GitHub Pages.
 
 <h1 align="center">
@@ -55,15 +46,11 @@ A visualização do site também está disponível nesse [link]() através do Gi
 
 ## Gostaria de ajudar?
 
----
-
 Acesse o site [Lar da Tia Edna]() para saber como ajudar!
 
 <p><br></p>
 
 ## 🛠 Tecnologias Utilizadas
-
----
 
 <div style="display:flex; justify-content:center;">
   <img  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="100" height="40" style="max-width:100%;"></img>
@@ -78,8 +65,6 @@ Acesse o site [Lar da Tia Edna]() para saber como ajudar!
 <p><br></p>
 
 ## ✅ Contribuição
-
----
 
 <table>
 
