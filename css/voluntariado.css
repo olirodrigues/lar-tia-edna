@@ -1,0 +1,1132 @@
+* {
+  font-family: "Delius", cursive;
+  font-size: 70%;
+  background-color: #fff;
+  margin: 0%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Bubblegum Sans", cursive;
+  color: #2f327d;
+}
+
+h1 {
+  font-size: 3.75rem;
+  margin-top: 0px;
+}
+
+p,
+li,
+a,
+button,
+input,
+textarea {
+  font-size: 1.3rem;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+button {
+  font-family: Poppins;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  background: #d6024e;
+  border-radius: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#btnUm {
+  font-family: Poppins;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  background: #d6024e;
+  border-radius: 80px;
+  box-shadow: 1px 1px 1px rgb(29, 29, 29);
+  border: none;
+  cursor: pointer;
+  transition: all 300ms ease-out;
+  margin-top: -15px;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-position: left bottom;
+  background-color: #a0023c;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #a0023c;
+}
+
+#corte {
+  max-width: 100%;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 60px;
+}
+
+.navegador {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+}
+
+.li {
+  margin-right: 56px;
+  margin-top: 0px;
+}
+
+#btnUm {
+  font-family: Poppins;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  background: #d6024e;
+  border-radius: 80px;
+  box-shadow: 1px 1px 1px rgb(29, 29, 29);
+  border: none;
+  cursor: pointer;
+  transition: all 300ms ease-out;
+  margin-top: -15px;
+}
+
+#btnUm:hover {
+  transform: scale(1.1);
+  background-position: left bottom;
+  background-color: #d6024e;
+  color: #ffffff;
+}
+
+#voluntario {
+  display: flex;
+  flex-direction: row;
+  margin-top: 114px;
+  margin-left: 30px;
+  align-items: center;
+}
+
+#volu {
+  font-size: 3.125rem;
+  color: #2f327d;
+  margin-right: 65px;
+  text-align: center;
+}
+
+.formUm {
+  display: flex;
+  flex-direction: row;
+}
+
+.divider {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  width: 400px;
+}
+
+#name {
+  background: #fff;
+  border-radius: 40px;
+  width: 600px;
+  height: 35px;
+  text-align: start;
+  margin-bottom: 30px;
+  font-size: 1.563rem;
+  border-width: 1px;
+  margin-left: 30px;
+}
+
+#namel {
+  font-size: 1.875rem;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+#phone {
+  background: #fff;
+  border-radius: 40px;
+  width: 300px;
+  height: 35px;
+  text-align: start;
+  margin-bottom: 30px;
+  font-size: 1.563rem;
+  border-width: 1px;
+  margin-left: 30px;
+}
+
+#phonel {
+  font-size: 1.875rem;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+#email {
+  background: #fff;
+  border-radius: 40px;
+  width: 600px;
+  height: 35px;
+  text-align: start;
+  margin-bottom: 30px;
+  font-size: 1.563rem;
+  border-width: 1px;
+  margin-left: 30px;
+}
+
+#emaill {
+  font-size: 1.875rem;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+#CEP {
+  background: #fff;
+  border-radius: 40px;
+  width: 300px;
+  height: 35px;
+  text-align: start;
+  margin-bottom: 30px;
+  font-size: 1.563rem;
+  border-width: 1px;
+  margin-left: 30px;
+}
+
+#CEPl {
+  font-size: 1.875rem;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+#enderecoForm {
+  background: #fff;
+  border-radius: 40px;
+  width: 600px;
+  height: 35px;
+  text-align: start;
+  margin-bottom: 30px;
+  font-size: 1.563rem;
+  border-width: 1px;
+  margin-left: 30px;
+}
+
+#enderecol {
+  font-size: 1.875rem;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+#complemento {
+  background: #fff;
+  border-radius: 40px;
+  width: 300px;
+  height: 35px;
+  text-align: start;
+  margin-bottom: 30px;
+  font-size: 1.563rem;
+  border-width: 1px;
+  margin-left: 30px;
+}
+
+#complementol {
+  font-size: 1.875rem;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+#bairro {
+  background: #fff;
+  border-radius: 40px;
+  width: 280px;
+  height: 35px;
+  text-align: start;
+  margin-bottom: 30px;
+  font-size: 1.563rem;
+  border-width: 1px;
+  margin-left: 30px;
+}
+
+#bairrol {
+  font-size: 1.875rem;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+#cidade {
+  background: #fff;
+  border-radius: 40px;
+  width: 280px;
+  height: 35px;
+  text-align: start;
+  margin-bottom: 30px;
+  font-size: 1.563rem;
+  border-width: 1px;
+  margin-left: 30px;
+}
+
+#cidadel {
+  font-size: 1.875rem;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+#estado {
+  background: #fff;
+  border-radius: 40px;
+  width: 300px;
+  height: 35px;
+  text-align: start;
+  margin-bottom: 30px;
+  font-size: 1.563rem;
+  border-width: 1px;
+  margin-left: 30px;
+}
+
+#estadol {
+  font-size: 1.875rem;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+.selection {
+  margin-left: 30px;
+}
+
+.questions {
+  margin-top: 30px;
+  font-size: 2.375rem;
+  margin-bottom: 30px;
+}
+
+.checkbox {
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  margin-right: 10px;
+}
+
+.options {
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.meios {
+  margin-top: 30px;
+  font-size: 2.375rem;
+  margin-bottom: 15px;
+}
+.meio {
+  background: #fff;
+  border-radius: 30px;
+  width: 300px;
+  height: 40px;
+  text-align: start;
+  margin-bottom: 15px;
+  font-size: 1.563rem;
+  border-width: 1px;
+}
+
+#btnDois {
+  font-family: Poppins;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  background: #d6024e;
+  border-radius: 80px;
+  box-shadow: 1px 1px 1px rgb(29, 29, 29);
+  border: none;
+  cursor: pointer;
+  transition: all 300ms ease-out;
+  margin-left: 30px;
+  font-size: 1.5rem;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+#btnDois:hover {
+  transform: scale(1.1);
+  background-position: left bottom;
+  background-color: #d6024e;
+  color: #ffffff;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+#endereco {
+  position: absolute;
+  top: 20%;
+  left: 16px;
+  margin-left: 100px;
+  background-color: transparent;
+  text-align: start;
+}
+
+#separaEndereco {
+  background-color: transparent;
+  margin-bottom: 15px;
+  font-size: 2.5rem;
+}
+
+#separaTexto {
+  background-color: transparent;
+  font-size: 1.563rem;
+}
+
+#separaFone {
+  background-color: transparent;
+  margin-top: 10px;
+  font-size: 1.563rem;
+}
+
+#contribua {
+  position: absolute;
+  top: 20%;
+  left: 430px;
+  margin-left: 100px;
+  background-color: transparent;
+  text-align: start;
+}
+
+#tituloContribua {
+  background-color: transparent;
+  margin-bottom: 15px;
+  font-size: 2.5rem;
+}
+
+#textContribua {
+  background-color: transparent;
+  font-size: 1.563rem;
+}
+
+#btnTres {
+  font-family: Poppins;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  background: #d6024e;
+  border-radius: 80px;
+  box-shadow: 1px 1px 1px rgb(29, 29, 29);
+  border: none;
+  cursor: pointer;
+  transition: all 300ms ease-out;
+  margin-left: 90px;
+  font-size: 1.5rem;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+btnTres:hover {
+  transform: scale(1.1);
+  background-position: left bottom;
+  background-color: #d6024e;
+  color: #ffffff;
+}
+
+#form {
+  position: absolute;
+  top: 20%;
+  right: 16px;
+  margin-right: 50px;
+  background-color: transparent;
+}
+
+#mensagem {
+  background-color: transparent;
+  margin-bottom: 15px;
+  font-size: 2.5rem;
+}
+
+::placeholder {
+  color: #000;
+}
+
+#nome {
+  background: #fff;
+  border-radius: 30px;
+  width: 100%;
+  height: 35px;
+  text-align: start;
+  margin-bottom: 30px;
+  font-size: 1.563rem;
+  border-width: 1px;
+}
+#emailBotton {
+  background: #fff;
+  border-radius: 30px;
+  width: 100%;
+  height: 35px;
+  text-align: start;
+  margin-bottom: 30px;
+  font-size: 1.563rem;
+  border-width: 1px;
+}
+#textBotton {
+  background: #fff;
+  border-radius: 30px;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  font-size: 1.563rem;
+  border-width: 1px;
+}
+
+#btnQuatro {
+  font-family: Poppins;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  background: #d6024e;
+  border-radius: 80px;
+  box-shadow: 1px 1px 0px rgb(29, 29, 29);
+  border: none;
+  cursor: pointer;
+  transition: all 300ms ease-out;
+  border-width: 1.2px;
+  font-size: 1.5rem;
+}
+
+#btnQuatro:hover {
+  transform: scale(1.1);
+  background-position: left bottom;
+  background-color: #d6024e;
+  color: #ffffff;
+}
+
+#copyright {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 0.938rem;
+  margin-left: 50px;
+  background-color: transparent;
+}
+
+#devs {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 0.938rem;
+  margin-right: 50px;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1920px) {
+  #header h1 {
+    margin-left: 3%;
+  }
+
+  .navegador {
+    margin-right: 10%;
+    font-size: 30px;
+  }
+
+  ::placeholder {
+    padding-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .navegador {
+    margin-right: 3%;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .navegador {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  #contribua {
+    margin-left: -6%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #header h1 {
+    font-size: 27px;
+  }
+
+  .navegador {
+    font-size: 18px;
+    margin-right: -2%;
+  }
+
+  .li {
+    margin-left: -4%;
+  }
+
+  #btnUm {
+    margin-left: -3%;
+  }
+
+  #endereco {
+    margin-left: 3%;
+  }
+
+  #contribua {
+    margin-left: -20%;
+  }
+  #form {
+    margin-right: -4%;
+  }
+
+  #separaEndereco {
+    font-size: 22px;
+  }
+  #separaTexto {
+    font-size: 16px;
+  }
+
+  #separaFone {
+    font-size: 16px;
+  }
+
+  #tituloContribua {
+    font-size: 22px;
+  }
+
+  #textContribua {
+    font-size: 16px;
+  }
+
+  #mensagem {
+    font-size: 22px;
+  }
+  #nome {
+    font-size: 16px;
+    width: 60%;
+    margin-bottom: 4%;
+  }
+
+  #emailBotton {
+    font-size: 16px;
+    width: 60%;
+    margin-bottom: 4%;
+  }
+
+  #textBotton {
+    font-size: 16px;
+    height: 49px;
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #header h1 {
+    margin-left: 3%;
+  }
+
+  .navegador {
+    margin-top: 15px;
+    font-size: 16px;
+    margin-left: 70%;
+  }
+
+  .li {
+    margin-right: 15%;
+  }
+
+  #namel {
+    font-size: 17px;
+  }
+  #phonel {
+    font-size: 17px;
+  }
+
+  #emaill {
+    font-size: 17px;
+  }
+
+  #CEPl {
+    font-size: 17px;
+  }
+
+  #enderecol {
+    font-size: 17px;
+  }
+  #complementol {
+    font-size: 17px;
+  }
+  #bairrol {
+    font-size: 17px;
+  }
+  #cidadel {
+    font-size: 17px;
+  }
+  #estadol {
+    font-size: 17px;
+  }
+
+  #voluntariaIMG {
+    width: 70px;
+  }
+
+  #name {
+    width: 340px;
+  }
+
+  #phone {
+    width: 160px;
+  }
+
+  #email {
+    width: 340px;
+  }
+
+  #enderecoForm {
+    width: 340px;
+  }
+  #CEP {
+    width: 160px;
+  }
+
+  #complemento {
+    width: 160px;
+  }
+
+  #bairro {
+    width: 160px;
+  }
+
+  #cidade {
+    width: 190px;
+  }
+
+  #estado {
+    width: 200px;
+  }
+
+  .questions {
+    font-size: 20px;
+  }
+
+  .meios {
+    font-size: 20px;
+  }
+  .options {
+    font-size: 20px;
+  }
+
+  #endereco {
+    margin-left: 3%;
+  }
+
+  #contribua {
+    margin-left: -27%;
+  }
+  #form {
+    margin-right: -11%;
+  }
+
+  #separaEndereco {
+    font-size: 16px;
+  }
+  #separaTexto {
+    font-size: 14px;
+  }
+
+  #separaFone {
+    font-size: 14px;
+  }
+
+  #tituloContribua {
+    font-size: 16px;
+  }
+
+  #textContribua {
+    font-size: 14px;
+    max-width: 200px;
+  }
+
+  #btnTres {
+    font-size: 14px;
+    margin-left: 10%;
+  }
+
+  #mensagem {
+    font-size: 16px;
+  }
+  #nome {
+    font-size: 14px;
+    height: 30px;
+    margin-bottom: 15px;
+  }
+
+  #emailBotton {
+    font-size: 14px;
+    height: 30px;
+    margin-bottom: 15px;
+  }
+
+  #textBotton {
+    font-size: 14px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+
+  #btnQuatro {
+    font-size: 14px;
+  }
+
+  #copyright {
+    font-size: 9px;
+    margin-bottom: -0.5%;
+  }
+
+  #devs {
+    margin-bottom: -0.7%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #header h1 {
+    margin-left: 3%;
+  }
+
+  .navegador {
+    margin-top: 15px;
+    font-size: 16px;
+    margin-left: 70%;
+  }
+
+  .li {
+    margin-right: 15%;
+  }
+
+  #namel {
+    font-size: 17px;
+  }
+  #phonel {
+    font-size: 17px;
+  }
+
+  #emaill {
+    font-size: 17px;
+  }
+
+  #CEPl {
+    font-size: 17px;
+  }
+
+  #enderecol {
+    font-size: 17px;
+  }
+  #complementol {
+    font-size: 17px;
+  }
+  #bairrol {
+    font-size: 17px;
+  }
+  #cidadel {
+    font-size: 17px;
+  }
+  #estadol {
+    font-size: 17px;
+  }
+
+  #voluntariaIMG {
+    width: 70px;
+  }
+
+  #name {
+    width: 340px;
+  }
+
+  #phone {
+    width: 160px;
+  }
+
+  #email {
+    width: 340px;
+  }
+
+  #enderecoForm {
+    width: 340px;
+  }
+  #CEP {
+    width: 160px;
+  }
+
+  #complemento {
+    width: 160px;
+  }
+
+  #bairro {
+    width: 160px;
+  }
+
+  #cidade {
+    width: 190px;
+  }
+
+  #estado {
+    width: 200px;
+  }
+
+  .questions {
+    font-size: 20px;
+  }
+
+  .meios {
+    font-size: 20px;
+  }
+  .options {
+    font-size: 20px;
+  }
+
+  #endereco {
+    margin-left: 3%;
+  }
+
+  #contribua {
+    margin-left: -37%;
+  }
+  #form {
+    margin-right: -11%;
+  }
+
+  #separaEndereco {
+    font-size: 16px;
+  }
+  #separaTexto {
+    font-size: 14px;
+  }
+
+  #separaFone {
+    font-size: 14px;
+  }
+
+  #tituloContribua {
+    font-size: 16px;
+  }
+
+  #textContribua {
+    font-size: 14px;
+    max-width: 200px;
+  }
+
+  #btnTres {
+    font-size: 14px;
+    margin-left: 10%;
+  }
+
+  #mensagem {
+    font-size: 16px;
+  }
+  #nome {
+    font-size: 14px;
+    height: 30px;
+    margin-bottom: 15px;
+  }
+
+  #emailBotton {
+    font-size: 14px;
+    height: 30px;
+    margin-bottom: 15px;
+  }
+
+  #textBotton {
+    font-size: 14px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+
+  #btnQuatro {
+    font-size: 14px;
+  }
+
+  #copyright {
+    font-size: 9px;
+    margin-bottom: -0.5%;
+  }
+
+  #devs {
+    margin-bottom: -0.7%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  #header {
+    margin-right: 5%;
+  }
+
+  #form {
+    margin-right: -10%;
+  }
+
+  #btnDois {
+    font-size: 10px;
+  }
+
+  #btnTres {
+    font-size: 10px;
+  }
+
+  #btnQuatro {
+    font-size: 14px;
+  }
+
+  #nome {
+    margin-bottom: 10px;
+  }
+
+  #emailBotton {
+    margin-bottom: 10px;
+  }
+
+  #textBotton {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #header {
+    margin: 0 0 0 0;
+  }
+  #header h1 {
+    font-size: 20px;
+    margin-right: 0%;
+  }
+
+  #btnUm {
+    font-size: 9px;
+  }
+  .navegador {
+    margin-right: 4%;
+  }
+
+  #estado {
+    width: 110px;
+  }
+  #contribua {
+    margin-left: -50%;
+  }
+  #form {
+    margin-right: -18%;
+  }
+
+  #btnDois {
+    font-size: 10px;
+  }
+
+  #btnTres {
+    font-size: 8px;
+  }
+
+  #btnQuatro {
+    font-size: 8px;
+  }
+  #mensagem {
+    font-size: 15px;
+    margin-bottom: 2%;
+  }
+
+  #nome {
+    margin-bottom: 10px;
+    width: 140px;
+    height: 20px;
+  }
+
+  #emailBotton {
+    margin-bottom: 10px;
+    width: 140px;
+    height: 20px;
+  }
+
+  #textBotton {
+    margin-bottom: 10px;
+    width: 140px;
+    height: 20px;
+  }
+}
+
+/*****************************************************/
+/***************** BOTÕES FLUTUANTES *****************/
+/*****************************************************/
+
+.fab {
+  position: fixed;
+  left: 25px;
+  padding: 10px 7.5px;
+  width: 30px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook-f {
+  bottom: 150px;
+  background-color: #3b5998;
+}
+
+.fa-instagram {
+  bottom: 80px;
+  background-color: #125688;
+}
+
+.fas {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  right: 25px;
+  padding: 10px 7.5px;
+  width: 30px;
+  z-index: 99;
+  background-color: #ffffff;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#fas:hover {
+  background-color: black;
+  color: #ffffff;
+  opacity: 0.7;
+}
