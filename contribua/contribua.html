@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Delius&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0427f8973d.js" crossorigin="anonymous"></script>
     <title>Contribua com o Lar Tia Edna</title>
   </head>
   <body>
@@ -78,7 +79,7 @@
           </div>
           <div class="doacoes">
             <p class="separacao">Para doações em pix:</p>
-            <img src="https://sigconsaida.mg.gov.br/wp-content/uploads/2020/03/transparencia.png" alt="qrCode" width="150px" style="margin-left: 18.5px;">
+            <img src="https://sigconsaida.mg.gov.br/wp-content/uploads/2020/03/transparencia.png" id="qrCodigo" alt="qrCode" width="150px" style="margin-left: 18.5px;">
           </div>
         </div>
         <p id="mainDois">Qualquer ajuda será muito bem vinda, agradecemos desde já!</p>
@@ -120,5 +121,23 @@
       <p id="copyright">© Copyright © 2022 Lar Tia Edna. Todos os direitos reservados.</p>
       <a id="devs" href="">Desenvolvido por time 6 - Gama</a>
     </footer>
+
+    <div>
+      <!-- Botões flutuantes -->
+      <!-- voltar ao topo -->
+      <i class="fas fa-arrow-up" onclick="topFunction()" id="topBtn" title="Voltar ao início"></i>
+
+      <!-- facebook -->
+      <a href="https://www.facebook.com/LAR-TIA-EDNA-560727843944689/" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      
+      <!-- instagram -->
+      <a href="https://www.instagram.com/lartiaedna/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    
   </body>
+  <script src="../src/components/index.js"></script>
 </html>

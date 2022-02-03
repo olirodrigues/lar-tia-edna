@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Delius&family=Poppins:wght@600&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/0427f8973d.js" crossorigin="anonymous"></script>
     <title>Lar Tia Edna</title>
   </head>
   <body>
@@ -22,7 +22,7 @@
       <div id="header2">
         <nav id="menu">
           <h1>Lar Tia Edna</h1>
-          <ul id="navegador">
+          <ul class="navegador" id="meuNavegador">
             <li>
               <a href="index.html">Home</a>
             </li>
@@ -36,15 +36,49 @@
               <a href="#objetivos">Objetivos</a>
             </li>
             <li>
-              <a href="/src/pages/voluntariado.html">Voluntariado</a>
+              <a id="voluntariadoMenu" href="/src/pages/voluntariado.html">Voluntariado</a>
             </li>
             <li>
               <a href="#form-contato">Contato</a>
             </li>
-            <button>Contribua</button>
+            
+              <a href="javascript:void(0);" class="icone" >
+              <i class="fa fa-bars"></i>
+              </a>
+            
+            <button id=btnCont onclick="location.href='/contribua/contribua.html';">Contribua</button>
+
           </ul>
         </nav>
       </div>
+      <div id="menuMobil" class="menuM">
+        <div class="menu-itens">
+          <a href="javascript:void(0);" class="iconeFechar" >
+            <i class="fa fa-bars"></i>
+          <ul class="menuItens" id="itensMenu">
+              </a>
+            <li class="homeMenuLi">
+              <a class="homeMenu" href="index.html">Home</a>
+            </li>
+            <li  class="homeSobreLi">
+              <a class="homeSobre" href="#sobre">Sobre o Lar</a>
+            </li>
+            <li class="homeFinalidadeLi">
+              <a class="homeFinalidade" href="#finalidade">Finalidade</a>
+            </li>
+            <li class="homeObjetivosLi">
+              <a class="homeObjetivos" href="#objetivos">Objetivos</a>
+            </li>
+            <li class="homeVoluntariadoLi">
+              <a class="homeVoluntariado" href="">Voluntariado</a>
+            </li>
+            <li  class="homeContatoLi">
+              <a class="homeContato" href="#form-contato">Contato</a>
+            </li>
+            <button id=btnConMenu onclick="contribua()">Contribua</button>
+        </div>
+      </div>
+
       <div id="header3">
         <div>
           <h2>Um lar que acolhe, ajuda e faz a diferença</h2>
@@ -72,17 +106,20 @@
         <!-- Aqui tem uma linha dividindo as duas informações -->
         <div id="sobre2">
           <img
+            id="sobreFoto"
             src="./img/sobre-tia-edna.png"
             alt="Tia Edna segurando uma criança no colo"
           />
-          <div>
-            <p class="font18">
+
+          <div id="sobreEdna">
+            <p class="font18" id="margemClic">
               Edna Deakins viu a necessidade do Brasil em relação a menores
               carentes e então largou tudo que tinha nos Estados Unidos e rumou
               para o Brasil com uma amiga suíça para dar início a este trabalho.
               Edna não tinha dinheiro e dependeu unicamente de alguns irmãos que
               a ajudaram. O maior mantenedor sempre foi Deus.
             </p>
+            <div id="escondeText" class="hideText">
             <p class="font18">
               O objetivo da Tia Edna era o de dar aos órfãos e crianças
               abandonadas um lar onde fossem cuidadas com carinho, numa
@@ -110,7 +147,9 @@
               Edna) e sua esposa Nilma, e o mesmo é sustentado através de
               doações e amigos.
             </p>
-            <button>Saiba como nos ajudar</button>
+          </div>
+            <button id="lerMais" onclick="lerMore()"> Ler mais</button>
+            <button id="saibaMais">Saiba como nos ajudar</button>
           </div>
         </div>
       </section>
@@ -123,6 +162,7 @@
               >prestar assistência biopssiocossocial e espiritual</span
             >
           </h3>
+          <div class=finalidadeText>
           <p>
             Às crianças sem família natural e/ou que possuindo a mesma não
             dispõe de recursos financeiros ou emocional pra oferecer-lhe suporte
@@ -142,10 +182,12 @@
             estarem aptas para desempenharem o seu papel de cidadania.
           </p>
         </div>
+        </div>
+
         <div id="finalidade2">
           <img src="./img/fundo-video.png" alt="" />
           <div>
-            <iframe
+            <iframe id="videoFinalidade"
               src="https://www.youtube.com/embed/s-sGqbbgQdc"
               title="YouTube video player"
               frameborder="0"
@@ -163,22 +205,22 @@
         <div id="objetivos2">
           <h3>Os <span class="h3-verde">nossos</span> objetivos e metas</h3>
           <ul>
-            <li class="font22">
+            <li class="font22" id="reduzFont">
               <img src="./img/icon-paper.png" class="icon" alt="" /> CMDCA
             </li>
-            <li class="font22">
+            <li class="font22" id="reduzFont" >
               <img src="./img/icon-calendar.png" class="icon" alt="" />
               Suporte para contas mensais: (água, gás, telefone, luz, etc…)
             </li>
-            <li class="font22">
+            <li class="font22" id="reduzFont" >
               <img src="./img/icon-work.png" class="icon" alt="" />
               Regulamentação
             </li>
-            <li class="font22">
+            <li class="font22" id="reduzFont" >
               <img src="./img/icon-home.png" class="icon" alt="" /> Casa de
               apoio para os jovens na maioridade
             </li>
-            <li class="font22">
+            <li class="font22" id="reduzFont">
               <img src="./img/icon-heart.png" class="icon" alt="" />
               Suporte para crianças com bolsa em escola particulares
             </li>
@@ -213,8 +255,8 @@
             required
           />
           <textarea
-            name="message"
-            id="mensagem"
+            name="text"
+            id="mensagemInput"
             cols="30"
             rows="5"
             placeholder="Mensagem"
@@ -232,6 +274,23 @@
         </strong>
       </div>
     </footer>
+
+    <div>
+      <!-- Botões flutuantes -->
+      <!-- voltar ao topo -->
+      <i class="fas fa-arrow-up" onclick="topFunction()" id="topBtn" title="Voltar ao início"></i>
+
+      <!-- facebook -->
+      <a href="https://www.facebook.com/LAR-TIA-EDNA-560727843944689/" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+
+      <!-- instagram -->
+      <a href="https://www.instagram.com/lartiaedna/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+
     <div>
       <div vw class="enabled">
         <div vw-access-button class="active"></div>
@@ -244,5 +303,13 @@
         new window.VLibras.Widget("https://vlibras.gov.br/app");
       </script>
     </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js%22%3E"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app%27')
+    </script>
+    <script src ="./menuMobile/menuResponsivo.js">
+
+    </script>
   </body>
+  <script src="/src/components/index.js"></script>
 </html>

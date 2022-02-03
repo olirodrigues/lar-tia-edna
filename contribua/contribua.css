@@ -59,7 +59,7 @@ h1 {
 #btnUm:hover {
   transform: scale(1.1);
   background-position: left bottom;
-  background-color: #d6024e;
+  background-color: #6b535c;
   color: #ffffff;
 }
 
@@ -269,4 +269,617 @@ img {
   margin-right: 50px;
   background-color: transparent;
   text-decoration: none;
+}
+
+
+/* Responsividade :D */
+
+
+@media only screen and (max-width: 1920px) {
+
+  #header h1 {
+    margin-left: 3%;
+  }
+  
+  .navegador {
+    margin-right: 10%;
+    font-size: 30px;
+  }
+  
+  #nuvensUm {
+    margin-right: 2%;
+    margin-left: -8%
+  }
+  
+  #nuvemTres.nuvens {
+    margin-left: 4.2%;
+    margin-right: 66%;
+  }
+  
+  #volunt {
+    margin-left: 15%
+  }
+  
+  #form {
+    margin-right: 6%;
+  }
+  
+  ::placeholder {
+    padding-left: 5%;
+  }  
+  }
+
+  @media only screen and (max-width: 1600px) {
+  
+  .navegador {
+    margin-right: 3%;
+    font-size: 25px;
+  }
+  
+  #nuvensUm {
+    margin-right: 6%;
+  }
+
+  #nuvemTres.nuvens {
+    margin-left: 4.2%;
+    margin-right: 63%;
+  }
+
+  #main {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #volunt {
+    margin-left: 8%
+  }
+  }
+
+  @media only screen and (max-width: 1440px) {
+    .navegador {
+      font-size: 20px;
+    }
+
+    #nuvensUm {
+      margin-left: 0%;
+    }
+
+    #nuvemTres.nuvens {
+
+      margin-right: 60%;
+    }
+    #volunt {
+      margin-left: 1%
+    }
+
+  }
+
+  @media only screen and (max-width: 1280px) {
+   
+    #volunt {
+     margin-left: -6%;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 1024px) {
+   
+    #header h1 {
+      font-size: 27px;
+    }
+
+    .navegador {
+      font-size: 18px;
+      margin-right: -2%;
+    }
+
+    .li {
+      margin-left: -4%;
+
+    }
+
+    #btnUm {
+      margin-left: -3%;
+    }
+    
+    .nuvens {
+      width: 150px;
+      height: 100px;
+    }
+
+    #nuvensUm {
+      margin-left: -2%;
+      margin-right: 10%;
+    }
+
+    #nuvemTres.nuvens {
+      margin-right: 59%;
+    }
+    
+    #main {
+      font-size: 20px;
+    }
+
+    #boxDoacoes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(175px, 2fr));
+    }
+
+    .doacoes {
+      font-size: 25px;
+    }
+
+    #mainDois {
+      font-size: 22px;
+    }
+
+    #endereco {
+      margin-left: 3%;
+    }
+
+    #volunt {
+      margin-left: -20%;
+
+    }
+    #form {
+      margin-right: 2%;
+    }
+
+    #separaEndereco {
+      font-size: 22px;
+    }
+    #separaTexto{
+      font-size: 16px;
+    }
+
+    #separaFone {
+      font-size: 16px;
+    }
+
+    #tituloVolunt {
+      font-size: 22px;
+    }
+
+    #textVolunt {
+      font-size: 16px;
+    }
+
+    #mensagem {
+      font-size: 22px;
+    }
+    #name {
+      font-size: 16px;
+    }
+
+    #email {
+      font-size: 16px;
+    }
+
+    #text {
+      font-size: 16px;
+      height: 49px;
+    }
+    #qrCodigo {
+      width: 100px;
+    }
+
+  }
+  @media only screen and (max-width: 800px) {
+    #header h1 {
+      margin-left: 3%;
+    }
+
+    .navegador {
+      margin-top: 15px;
+      font-size: 16px;
+      margin-left: 70%;
+    }
+
+    .li {
+      margin-right: 15%;
+    }
+    #nuvensUm {
+      margin-left: 10%;
+    }
+    .nuvens {
+      width: 130px;
+    }
+
+    #main {
+      font-size: 16px;
+    }
+    .doacoes {
+      font-size: 20px;
+    }
+    #mainDois {
+      font-size: 16px;
+    }
+   
+    #endereco {
+      margin-left: 3%;
+    }
+
+    #volunt {
+      margin-left: -27%;
+
+    }
+    #form {
+      margin-right: 5%;
+    }
+
+    #separaEndereco {
+      font-size: 16px;
+    }
+    #separaTexto{
+      font-size: 14px;
+    }
+
+    #separaFone {
+      font-size: 14px;
+    }
+
+    #tituloVolunt {
+      font-size: 16px;
+      
+    }
+
+    #textVolunt {
+      font-size: 14px;
+      max-width: 200px;
+    }
+
+    #btnTres {
+      font-size: 12px;
+      margin-left: 10%;
+
+    }
+
+    #mensagem {
+      font-size: 16px;
+    }
+    #name {
+      font-size: 14px;
+      height: 30px;
+      margin-bottom: 15px;
+    }
+
+    #email {
+      font-size: 14px;
+      height: 30px;
+      margin-bottom: 15px;
+    }
+
+    #text {
+      font-size: 14px;
+      height: 30px;
+      margin-bottom: 10px;
+    }
+
+    #btnDois {
+      font-size: 12px;
+    }
+
+
+
+    #copyright {
+      font-size: 9px;
+      margin-bottom: -0.5%
+    }
+
+    #devs {
+      margin-bottom: -0.7%
+    }
+
+  }
+
+  @media only screen and (max-width: 768px) {
+    #header h1 {
+      margin-left: 3%;
+    }
+
+    .navegador {
+      margin-top: 15px;
+      font-size: 16px;
+      margin-left: 70%;
+    }
+
+    .li {
+      margin-right: 15%;
+    }
+
+    .nuvens {
+      width: 120px;
+      height: 100px;
+    }
+
+    #nuvensUm {
+      margin-left: 5%;
+      margin-right: 17%;
+    }
+
+    #nuvemTres.nuvens {
+      margin-right: 55%;
+    } 
+
+    #main {
+      margin-top: 4%;
+      font-size: 16px;
+    }
+
+    .doacoes {
+      font-size: 20px;
+    }
+    #qrCodigo {
+      width: 100px;
+    }
+
+    #mainDois {
+      font-size: 16px;
+      margin-bottom: 4%;
+    }
+
+    #endereco {
+      margin-left: 3%;
+    }
+
+    #volunt {
+      margin-left: -30%;
+
+    }
+    #form {
+      margin-right: 7%;
+    }
+
+    #separaEndereco {
+      font-size: 16px;
+    }
+    #separaTexto{
+      font-size: 14px;
+    }
+
+    #separaFone {
+      font-size: 14px;
+    }
+
+    #tituloVolunt {
+      font-size: 16px;
+      
+    }
+
+    #textVolunt {
+      font-size: 14px;
+      max-width: 200px;
+    }
+
+    #btnTres {
+      font-size: 14px;
+      margin-left: 10%;
+
+    }
+
+    #mensagem {
+      font-size: 16px;
+    }
+    #name {
+      font-size: 14px;
+      height: 30px;
+      margin-bottom: 15px;
+    }
+
+    #email {
+      font-size: 14px;
+      height: 30px;
+      margin-bottom: 15px;
+    }
+
+    #text {
+      font-size: 14px;
+      height: 30px;
+      margin-bottom: 10px;
+    }
+
+    #btnDois {
+      font-size: 14px;
+    }
+
+    #qrCodigo {
+      width: 100px;
+    }
+
+    #copyright {
+      font-size: 9px;
+      margin-bottom: -0.5%
+    }
+
+    #devs {
+      margin-bottom: -0.5%
+    }
+    
+    .container {
+      top: 20px
+    }
+
+  }
+
+  
+  @media only screen and (max-width: 720px) {
+
+    #nuvemTres.nuvens {
+      margin-right: 50%;
+      margin-left: 8%;
+    } 
+
+    #header {
+      margin-right: 5%;
+    }
+
+    #nuvensUm {
+      margin-left: 13%; 
+    }
+
+    #volunt {
+      margin-left: -37%;
+    }
+    #form {
+      margin-right: 3%;
+    }
+
+    #btnDois {
+      font-size: 10px;
+    }
+
+    #btnTres {
+      font-size: 10px;
+    }
+
+    #text {
+      margin-bottom: 3%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    
+    #header {
+      margin: 0 0 0 0
+    }
+    #header h1 {
+      font-size: 20px;
+      margin-right: 0%
+    }
+    
+    .navegador {
+      margin-right: 4%;
+    }
+    .nuvens {
+      width: 100px;
+      height: 100px;
+    }
+    #main {
+      font-size: 14px;
+    }
+
+    .doacoes {
+      font-size: 17px;
+    }
+
+    #mainDois{
+      font-size: 14px;
+    }
+    
+    #volunt {
+      margin-left: -50%;
+    }
+    
+    #form {
+      margin-right: 0%;
+    }
+
+    #btnDois {
+      font-size: 8px;
+    }
+
+    #btnTres {
+      font-size: 8px;
+    }
+    #separaEndereco {
+      font-size: 16px;
+    }
+
+    #separaTexto {
+      font-size: 13px;
+    }
+
+    #separaFone {
+      font-size: 13px;
+    }
+
+    #tituloVolunt {
+      font-size: 16px;
+    }
+
+    #textVolunt {
+      font-size: 13px;
+    }
+
+    #mensagem {
+      font-size: 15px;
+      margin-bottom: 2%;
+    }
+
+    #name {
+      margin-bottom: 10px;
+      width: 140px;
+      height: 20px;
+    }
+
+    #email {
+      margin-bottom: 10px;
+      width: 140px;
+      height: 20px;
+    }
+
+    #text {
+      margin-bottom: 10px;
+      width: 140px;
+      height: 20px;
+        }
+  }
+
+/*****************************************************/
+/***************** BOTÕES FLUTUANTES *****************/
+/*****************************************************/
+
+.fab {
+  position: fixed;
+  left: 25px;
+  padding: 10px 7.5px;
+  width: 30px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook-f {
+  bottom: 150px;
+  background-color: #3b5998;
+}
+
+.fa-instagram {
+  bottom: 80px;
+  background-color: #125688;
+}
+
+.fas {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  right: 25px;
+  padding: 10px 7.5px;
+  width: 30px;
+  z-index: 99;
+  background-color: #ffffff;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#fas:hover {
+  background-color: black;
+  color: #ffffff;
+  opacity: 0.7;
 }
