@@ -56,6 +56,7 @@ button {
   color: #ffffff;
   padding: 10px 20px;
   border: none;
+  cursor: pointer;
   background: #d6024e;
   border-radius: 80px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -82,7 +83,7 @@ a:hover {
 }
 
 /****************************************************/
-/****************** RESPONSIVIDAED ******************/
+/****************** RESPONSIVIDADE ******************/
 /****************************************************/
 
 @media only screen and (max-width: 1920px) {
@@ -97,7 +98,7 @@ a:hover {
   }
 }
 
-@media only screen and (max-width: 1440px) { 
+@media only screen and (max-width: 1440px) {
   * {
     font-size: 62.5%;
   }
@@ -106,9 +107,7 @@ a:hover {
   * {
     font-size: 52.5%;
   }
-  
 }
-
 
 @media only screen and (max-width: 1024px) {
   * {
@@ -129,4 +128,50 @@ a:hover {
   li {
     font-size: 2.5rem;
   }
+}
+
+/*****************************************************/
+/***************** BOTÕES FLUTUANTES *****************/
+/*****************************************************/
+
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+#topBtn:hover {
+  background-color: black;
+  color: #ffffff;
+}
+
+.fa {
+  position: fixed;
+  left: 10px;
+  padding: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  bottom: 100px;
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  bottom: 20px;
+  background: #125688;
+  color: white;
 }

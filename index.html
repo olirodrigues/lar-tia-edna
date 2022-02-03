@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -46,7 +47,7 @@
               <i class="fa fa-bars"></i>
               </a>
             
-            <button id=btnCont>Contribua</button>
+            <button id=btnCont onclick="location.href='/contribua/contribua.html';">Contribua</button>
 
           </ul>
         </nav>
@@ -75,7 +76,7 @@
             <li  class="homeContatoLi">
               <a class="homeContato" href="#form-contato">Contato</a>
             </li>
-            <button id=btnConMenu>Contribua</button>
+            <button id=btnConMenu onclick="contribua()">Contribua</button>
         </div>
       </div>
 
@@ -273,6 +274,16 @@
         </strong>
       </div>
     </footer>
+
+    <!-- Botões flutuantes -->
+    <!-- voltar ao topo -->
+    <button onclick="topFunction()" id="topBtn" title="Go to top">&#8593</button>
+
+    <!-- facebook -->
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <!-- instagram -->
+    <a href="#" class="fa fa-instagram"></a>
+
     <div>
       <div vw class="enabled">
         <div vw-access-button class="active"></div>
@@ -293,4 +304,6 @@
 
     </script>
   </body>
+
+  <script src="/src/components/index.js"></script>
 </html>
