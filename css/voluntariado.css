@@ -1,5 +1,5 @@
 * {
-  font-family: "Delius", cursive;
+  font-family: 'Delius', cursive;
   font-size: 70%;
   background-color: #ffffff;
   margin: 0%;
@@ -8,7 +8,7 @@
 h1,
 h2,
 h3 {
-  font-family: "Bubblegum Sans", cursive;
+  font-family: 'Bubblegum Sans', cursive;
   color: #2f327d;
 }
 
@@ -18,7 +18,6 @@ h1 {
 }
 
 p,
-li,
 button,
 input,
 textarea {
@@ -51,6 +50,7 @@ button:hover {
 a {
   text-decoration: none;
   color: black;
+  font-size: 18px;
 }
 
 a:visited {
@@ -80,7 +80,7 @@ a:hover {
   font-size: 2rem;
 }
 
-.li {
+li {
   margin-right: 56px;
   margin-top: 0px;
 }
