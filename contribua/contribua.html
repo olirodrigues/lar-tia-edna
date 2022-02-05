@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Delius&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Delius&family=Poppins:wght@600&display=swap" rel="stylesheet">
     <title>Contribua com o Lar Tia Edna</title>
   </head>
@@ -31,17 +32,47 @@
       <img id="corte" src="../img/voluntariado-corte.svg" />
       <div id="header">
         <h1>Lar Tia Edna</h1>
-        <nav>
-          <div class="navegador">
+        <nav id="menu">
+          <div class="navegador" id="meuNavegador">
             <li class="li">Home</li>
             <li class="li">Sobre o Lar</li>
             <li class="li">Finalidade</li>
             <li class="li">Objetivos</li>
             <li class="li">Voluntariado</li>
             <li class="li">Contato</li>
-            <button id="btnUm">Contribua</button>
+            <a href="javascript:void(0);" class="icone" >
+              <i class="fa fa-bars"></i>
+              </a>
+            <button id="btnUm" >Contribua</button>
           <div>
         </nav>
+      </div>
+      <div id="menuMobil" class="menuM">
+        <div class="menu-itens">
+          <a href="javascript:void(0);" class="iconeFechar" >
+            <i class="fa fa-bars"></i>
+          <ul class="menuItens" id="itensMenu">
+              </a>
+            <li class="homeMenuLi">
+              <a class="homeMenu" href="index.html">Home</a>
+            </li>
+            <li  class="homeSobreLi">
+              <a class="homeSobre" href="#sobre">Sobre o Lar</a>
+            </li>
+            <li class="homeFinalidadeLi">
+              <a class="homeFinalidade" href="#finalidade">Finalidade</a>
+            </li>
+            <li class="homeObjetivosLi">
+              <a class="homeObjetivos" href="#objetivos">Objetivos</a>
+            </li>
+            <li class="homeVoluntariadoLi">
+              <a class="homeVoluntariado" href="">Voluntariado</a>
+            </li>
+            <li  class="homeContatoLi">
+              <a class="homeContato" href="#form-contato">Contato</a>
+            </li>
+            <button id=btnConMenu>Contribua</button>
+        </div>
       </div>
     </header>
 
@@ -86,7 +117,8 @@
     </main>
 
     <footer class="container">
-      <img id="corte" src="../img/contribua- footer.svg" alt="">
+      <img id="corte" class="footerImg" src="../img/contribua- footer.svg" alt="">
+      <img class="footerImgMobile" src="../img/contribua- footer -mobile.png">
       <section>
           <div id="endereco">
             <p id="separaEndereco">Endereço</p>
@@ -120,5 +152,7 @@
       <p id="copyright">© Copyright © 2022 Lar Tia Edna. Todos os direitos reservados.</p>
       <a id="devs" href="">Desenvolvido por time 6 - Gama</a>
     </footer>
+    <script src ="../src/components/menuResponsivo.js">
+    </script>
   </body>
 </html>

@@ -35,6 +35,12 @@ h1 {
   justify-content: flex-end;
   font-size: 2rem;
 }
+.menuM {
+  display: none;
+  position: fixed;
+  left: 64.5%;
+  top: 0.4%;
+}
 
 .li {
   margin-right: 56px;
@@ -56,13 +62,19 @@ h1 {
   margin-top: -15px;
 }
 
+.icone {
+  display: none;
+}
+
 #btnUm:hover {
   transform: scale(1.1);
   background-position: left bottom;
   background-color: #6b535c;
   color: #ffffff;
 }
-
+.footerImgMobile {
+  display: none;
+}
 img {
   max-width: 100%;
   max-height: 100%;
@@ -826,3 +838,346 @@ img {
       height: 20px;
         }
   }
+
+  @media only screen and (max-width: 414px) {
+
+    #header h1 {
+      margin-top: 4%;
+      margin-left: 6%;
+      margin-bottom: 0%;
+      font-size: 28px;
+    }
+    .li {
+      margin-right: 70%;
+      font-size: 16px;
+      margin-top: 6%;
+    }
+  
+    .navegador {
+      margin-top: 12%;
+      margin-left: 0%;
+      margin-right: 15%;
+  }
+  #btnUm {
+    font-size: 10px;
+    margin: 0 0 0 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 11px;
+    padding-left: 11px;
+  }
+  .navegador li:not(:first-child) {
+    display:none;
+  }
+.icone {
+    float: right;
+    display: block;
+    font-size: 20px;
+    color: #000;
+    margin-right: 25%;
+    margin-left: -45%;
+    margin-top: 4%;
+  }
+  .iconeFechar {
+    font-size: 20px;
+    margin-right: 25%;
+    margin-left: 2%;
+    margin-top: 30%;
+    color: #000;
+    display: block;
+    background-color: transparent;
+  }
+  .menuItens {
+    margin-left: 17%;
+    margin-top: -37%;
+    text-decoration: none;
+    list-style: none;
+    background-color: #ffffff;
+    padding: 16%;
+    border: 1px solid #888;
+    border-radius: 7%;
+    width: 90%;    animation-name: animatetop;
+    animation-duration: 0.2s
+   }
+   .menu-itens {
+    background-color: transparent;
+   }
+   #btnConMenu {
+    font-size: 11px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    margin-top: 8%;
+    font-family: Poppins;
+    color: #ffffff;
+    border: none;
+    background: #d6024e;
+    border-radius: 80px;
+   }
+
+   .menuM {
+     background-color: transparent;
+   }
+   
+   .homeMenuLi {
+     display: none;
+     margin-bottom: -60%;
+   }
+   .homeSobreLi {
+     font-size: 25px;
+     text-decoration: none;
+     background-color: #ffffff;
+   margin-top: -40%;
+   }
+   .homeFinalidadeLi{
+    font-size: 25px;
+    background-color: #ffffff;
+   }
+   .homeObjetivosLi {
+    font-size: 25px;
+    background-color: #ffffff;
+   }
+   .homeVoluntariadoLi {
+    font-size: 25px;
+    background-color: #ffffff;
+   }
+   .homeContato {
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+    background-color: #ffffff;
+   }
+   .homeContatoLi {
+    font-size: 25px;
+    background-color: #ffffff;
+   }
+   .homeSobre {
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+    background-color: #ffffff;
+  }
+  .homeFinalidade{
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+    background-color: #ffffff;
+  }
+  .homeObjetivos {
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+    background-color: #ffffff;
+  }
+  .homeVoluntariado {
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+    background-color: #ffffff;
+  }
+  .nuvens {
+    width: 60px;
+    height: 60px;
+  }
+  #nuvensUm {
+    margin-left: 10%;
+    margin-right: 11%;
+  }
+  #main {
+    font-size: 10px;
+  }
+  .doacoes {
+    font-size: 12px;
+  }
+  #qrCodigo {
+    width: 50px;
+  }
+  #boxDoacoes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(75px, 2fr));
+    justify-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  #mainDois {
+    font-size: 10px;
+    margin-bottom: -12%; 
+
+  }
+  .footerImg {
+    display: none;
+  }
+  .footerImgMobile {
+    width: 100%;
+    display: block;
+    margin-top: 11%;
+  }
+  #endereco {
+    margin-left: 30%;
+    margin-top: -6%;
+  }
+  #volunt{
+  display: none;
+  }
+  #separaEndereco {
+    margin-left: 17%;
+  }
+  #form {
+    margin-right: 22%;
+    margin-top: 28%;
+
+  }
+  #mensagem {
+    margin-top: -2%;
+  }
+  #name {
+    font-size: 8px;
+    width: 110px;
+    margin-bottom: 1.8%;
+  }
+  #email{
+    font-size: 8px;
+    width: 110px;    
+    margin-bottom: 1.8%;
+  }
+  #text{
+    font-size: 8px;
+    width: 130px;    
+    height: 37px;
+    margin-bottom: 1.8%;
+    border-radius: 8px;
+  }
+
+  #btnDois {
+  padding: 5px 8px 5px 8px;
+  box-shadow: none;
+  }
+  
+  #devs {
+    margin-bottom: -1.3%;
+    margin-right: 4%;
+    font-size: 6px;
+  }
+  #copyright {
+    margin-bottom: -1.3%;
+    margin-left: 1%;
+    font-size: 6px;
+  }
+  
+}
+
+@media only screen and (max-width: 393px) { 
+  .footerImgMobile {
+    margin-top: 15.3%;
+  }
+
+  #separaTexto {
+    margin-top: -6%;
+  }
+  #form {
+    margin-top: 26.2%;
+
+  }
+  #mensagem {
+    margin-top: -2%;
+  }
+}
+@media only screen and (max-width: 375px) { 
+
+  #header h1 {
+    margin-top: 4%;
+    margin-left: 6%;
+    margin-bottom: 0%;
+    font-size: 22px;
+  }
+  .menuItens {
+    margin-left: 10%;
+  }
+  .iconeFechar {
+    margin-left: -6%;
+    margin-top: 28%
+  }
+  .li {
+    margin-right: 70%;
+  }
+  .footerImgMobile {
+    margin-top: 13.3%;
+  }
+  #endereco {
+    margin-top: -7%;
+  }
+
+  #separaTexto {
+    margin-top: -6%;
+  }
+  #form {
+    left: 26%;
+
+  }
+  #mensagem {
+    margin-top: -4%;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  #text {
+    height: 30px;
+  }
+  #copyright {
+    margin-bottom: -1.6%;
+  }
+  #devs {
+    margin-bottom: -1.6%;
+  }
+}
+
+@media only screen and (max-width: 360px) { 
+  #header h1 {
+    margin-top: 4%;
+    margin-left: 6%;
+    margin-bottom: 0%;
+    font-size: 22px;
+  }
+  .li {
+    margin-right: 70%;
+    font-size: 16px;
+    margin-top: 6%;
+  }
+
+  .navegador {
+    margin-top: 12%;
+    margin-left: 0%;
+    margin-right: 15%;
+}
+#btnUm {
+  font-size: 10px;
+  margin: 0 0 0 0;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 11px;
+  padding-left: 11px;
+}
+.menuItens {
+  margin-left: 7%;
+}
+.iconeFechar {
+  margin-left: -11%;
+  margin-top: 25%
+}
+
+.footerImgMobile {
+  margin-top: 18.3%;
+}
+
+
+#mensagem {
+  margin-top: -4%;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+#separaFone {
+  margin-top: 3%;
+}
+}
