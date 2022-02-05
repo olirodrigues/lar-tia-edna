@@ -1,14 +1,8 @@
 
 const menu = document.querySelector('#menuMobil')
-
 const btnAbre = document.querySelector('.icone')
-
 const btnFecha = document.querySelector('.iconeFechar')
-
 const btncontribua = document.querySelector('#btnCont')
-
-
-
 const escondeHome = document.querySelector('.homeMenu')
 
 btnAbre.onclick = function() {
@@ -32,11 +26,9 @@ window.onlick = function(event) {
     }
 }
 function lerMore() {
-
     let textoEdna = document.getElementById('escondeText');
     if(textoEdna.className === "hideText") {
         textoEdna.className += ".aparece"; 
-
     } else {
         textoEdna.className = "hideText";
     }

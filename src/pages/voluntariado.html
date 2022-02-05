@@ -8,47 +8,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Delius&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Delius&family=Poppins:wght@600&display=swap" rel="stylesheet">
     <script src="/src/components/volunteering.js" type="module"> </script>
+    <script src="https://kit.fontawesome.com/0427f8973d.js" crossorigin="anonymous"></script>
     <title>Seja voluntário no Lar da Tia Edna</title>
   </head>
   <body>
-    <div>
-      <div vw class="enabled">
-        <div vw-access-button class="active"></div>
-        <div vw-plugin-wrapper>
-          <div class="vw-plugin-top-wrapper"></div>
-        </div>
-      </div>
-      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-      <script>
-      new window.VLibras.Widget('https://vlibras.gov.br/app')
-      </script>
-    </div>
     <header>
-      <img id="corte" src="/img/voluntariado-corte.svg" />
+      <img id="corte" src="/lar-tia-edna/img/voluntariado-corte.svg"/>
       <div id="header">
         <h1>Lar Tia Edna</h1>
-        <nav>
-          <div class="navegador">
-            <li class="li"><a href="/index.html">Home</a></li>
-            <li class="li"><a href="/index.html">Sobre o Lar</a></li>
-            <li class="li"><a href="/index.html">Finalidade</a></li>
-            <li class="li"><a href="/index.html">Objetivos</a></li>
-            <li class="li"><a href="/src/pages/voluntariado.html">Voluntariado</a></li>
-            <li class="li"><a href="/index.html">Contato</a></li>
-            <button id="btnUm"><a href="/contribua/contribua.html">Contribua</a></button>
-          <div>
-        </nav>
+          <nav class="navegador" id="meuNavegador">
+              <li class="li"><a href="/index.html">Home</a></li>
+              <li class="li"><a href="/index.html#sobre">Sobre o Lar</a></li>
+              <li class="li"><a href="/index.html#finalidade">Finalidade</a></li>
+              <li class="li"><a href="/index.html#objetivos">Objetivos</a></li>
+              <li class="li"><a href="/src/pages/voluntariado.html">Voluntariado</a></li>
+              <li class="li"><a href="#form">Contato</a></li>
+              <button id="btnUm" onclick="location.href='/contribua/contribua.html';">Contribua</button> 
+          </nav>
       </div>
     </header>
     <main>
       <section>
         <div id="voluntario">
           <p id="volu">Voluntariado</p>
-          <img src="/img/voluntariado.svg" id="voluntariaIMG" alt="Voluntária">
+          <img src="/lar-tia-edna/img/voluntariado.svg" id="voluntariaIMG" alt="Voluntária">
         </div>
         <form action="https://formsubmit.co/kevinmg50@gmail.com" method="POST">
         <div class="formUm">
@@ -231,7 +216,7 @@
     </main>
   </form>
     <footer class="container">
-      <img id="corte" src="/img/contribua- footer.svg" alt="">
+      <img id="corte" src="/lar-tia-edna/img/contribua- footer.svg" alt="">
       <section>
           <div id="endereco">
             <p id="separaEndereco">Endereço</p>
@@ -260,8 +245,22 @@
             <button type="submit" id="btnQuatro">Enviar</button>
           </form>
       </section>
-      <p id="copyright">© Copyright © 2022 Lar Tia Edna. Todos os direitos reservados.</p>
-      <a id="devs" href="">Desenvolvido por time 6 - Gama</a>
+      <h5 id="copyright">© Copyright © 2022 Lar Tia Edna. Todos os direitos reservados.</h5>
+      <a id="devs" href="https://github.com/olirodrigues/lar-tia-edna">Desenvolvido por time 6 - Gama</a>
     </footer>
+    <div id="floating-buttons">
+      <!-- Botões flutuantes -->
+      <!-- voltar ao topo -->
+      <i class="fas fa-arrow-up" onclick="topFunction()" id="topBtn" title="Voltar ao início"></i>
+      <!-- facebook -->
+      <a href="https://www.facebook.com/LAR-TIA-EDNA-560727843944689/" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <!-- instagram -->
+      <a href="https://www.instagram.com/lartiaedna/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
   </body>
+  <script src="../components/index.js "></script>
 </html>

@@ -3,15 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src ="/src/components/menuResponsivo.js"></script>
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/home.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Delius&family=Poppins:wght@600&display=swap"
       rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/0427f8973d.js" crossorigin="anonymous"></script>
     <title>Lar Tia Edna</title>
   </head>
   <body>
@@ -44,10 +45,8 @@
             
               <a href="javascript:void(0);" class="icone" >
               <i class="fa fa-bars"></i>
-              </a>
-            
-            <button id=btnCont>Contribua</button>
-
+              </a>            
+            <button id=btnCont onclick="location.href='/contribua/contribua.html';">Contribua</button>
           </ul>
         </nav>
       </div>
@@ -75,7 +74,7 @@
             <li  class="homeContatoLi">
               <a class="homeContato" href="#form-contato">Contato</a>
             </li>
-            <button id=btnConMenu>Contribua</button>
+            <button id=btnConMenu onclick="contribua()">Contribua</button>
         </div>
       </div>
 
@@ -84,7 +83,7 @@
           <h2>Um lar que acolhe, ajuda e faz a diferença</h2>
           <p>O Lar Tia Edna é muito mais do que você pode imaginar.</p>
           <div id="headerVideo">
-            <img src="./img/icon-play.png" class="icon" alt="" />
+           <a href="#finalidade"><img src="./img/icon-play.png" class="icon" alt="" /></a>
             <p>Veja nossa história em vídeo</p>
           </div>
         </div>
@@ -96,7 +95,7 @@
         <div id="sobre1">
           <h3><span class="h3-rosa">Sobre</span> o Lar Tia Edna</h3>
           <p class="paragrafo18">
-            O Lar fui fundado em 1957, por uma missionária americana chamada
+            O Lar foi fundado em 1957, por uma missionária americana chamada
             Edna Deakins. Sua maior motivação foi devida a um pequeno bebê que
             foi abandonado em frente à sua porta. Ela deu-lhe o nome de Sérgio e
             ele tornou-se seu primeiro filho e a razão principal da existência
@@ -274,16 +273,17 @@
       </div>
     </footer>
     <div>
-      <div vw class="enabled">
-        <div vw-access-button class="active"></div>
-        <div vw-plugin-wrapper>
-          <div class="vw-plugin-top-wrapper"></div>
-        </div>
-      </div>
-      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-      <script>
-      new window.VLibras.Widget('https://vlibras.gov.br/app')
-      </script>
+      <!-- Botões flutuantes -->
+      <!-- voltar ao topo -->
+      <i class="fas fa-arrow-up" onclick="topFunction()" id="topBtn" title="Voltar ao início"></i>
+      <!-- facebook -->
+      <a href="https://www.facebook.com/LAR-TIA-EDNA-560727843944689/" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <!-- instagram -->
+      <a href="https://www.instagram.com/lartiaedna/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
     </div>
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js%22%3E"></script>
     <script>
@@ -293,4 +293,5 @@
 
     </script>
   </body>
+  <script src="/src/components/index.js"></script>
 </html>

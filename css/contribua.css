@@ -1,7 +1,7 @@
 * {
   font-family: 'Delius', cursive;
   font-size: 70%;
-  background-color: #ffffff;
+  background-color: #20b6e4;
   margin: 0%;
 }
 
@@ -15,36 +15,6 @@ h3 {
 h1 {
   font-size: 3.75rem;
   margin-top: 0px;
-}
-
-p,
-button,
-input,
-textarea {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
-}
-
-ul {
-  list-style: none;
-}
-
-button {
-  font-family: Poppins;
-  color: #ffffff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  background: #d6024e;
-  border-radius: 80px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-button:hover {
-  transform: scale(1.1);
-  background-position: left bottom;
-  background-color: #a0023c;
-  color: #ffffff;
 }
 
 a {
@@ -80,7 +50,7 @@ a:hover {
   font-size: 2rem;
 }
 
-li {
+.li {
   margin-right: 56px;
   margin-top: 0px;
 }
@@ -103,264 +73,57 @@ li {
 #btnUm:hover {
   transform: scale(1.1);
   background-position: left bottom;
-  background-color: #d6024e;
+  background-color: #6b535c;
   color: #ffffff;
 }
 
-#voluntario {
-  display: flex;
-  flex-direction: row;
-  margin-top: 114px;
-  margin-left: 30px;
-  align-items: center;
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-#volu {
-  font-size: 3.125rem;
-  color: #2f327d;
-  margin-right: 65px;
+.nuvens {
+  height: 150px;
+  width: 200px;
+}
+
+#nuvensUm {
+  display: flex;
+  justify-content: space-around;
+}
+
+#nuvemTres {
+  margin-top: 0px;
+  margin-left: 120px;
+  margin-right: 60%;
+}
+
+#main {
+  margin-top: 95px;
+  font-size: 2.1rem;
   text-align: center;
+  margin-bottom: 60px;
 }
 
-.formUm {
-  display: flex;
-  flex-direction: row;
+#boxDoacoes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(375px, 2fr));
+  justify-items: center;
 }
 
-.divider {
-  display: flex;
-  flex-direction: column;
+.doacoes {
+  font-size: 2.5rem;
 }
 
-form {
-  width: 400px;
-}
-
-#name {
-  background: #fff;
-  border-radius: 40px;
-  width: 600px;
-  height: 35px;
-  text-align: start;
-  margin-bottom: 30px;
-  font-size: 1.563rem;
-  border-width: 1px;
-  margin-left: 30px;
-}
-
-#namel {
-  font-size: 1.875rem;
-  margin-left: 30px;
-  margin-bottom: 5px;
-}
-
-#phone {
-  background: #fff;
-  border-radius: 40px;
-  width: 300px;
-  height: 35px;
-  text-align: start;
-  margin-bottom: 30px;
-  font-size: 1.563rem;
-  border-width: 1px;
-  margin-left: 30px;
-}
-
-#phonel {
-  font-size: 1.875rem;
-  margin-left: 30px;
-  margin-bottom: 5px;
-}
-
-#email {
-  background: #fff;
-  border-radius: 40px;
-  width: 600px;
-  height: 35px;
-  text-align: start;
-  margin-bottom: 30px;
-  font-size: 1.563rem;
-  border-width: 1px;
-  margin-left: 30px;
-}
-
-#emaill {
-  font-size: 1.875rem;
-  margin-left: 30px;
-  margin-bottom: 5px;
-}
-
-#CEP {
-  background: #fff;
-  border-radius: 40px;
-  width: 300px;
-  height: 35px;
-  text-align: start;
-  margin-bottom: 30px;
-  font-size: 1.563rem;
-  border-width: 1px;
-  margin-left: 30px;
-}
-
-#CEPl {
-  font-size: 1.875rem;
-  margin-left: 30px;
-  margin-bottom: 5px;
-}
-
-#enderecoForm {
-  background: #fff;
-  border-radius: 40px;
-  width: 600px;
-  height: 35px;
-  text-align: start;
-  margin-bottom: 30px;
-  font-size: 1.563rem;
-  border-width: 1px;
-  margin-left: 30px;
-}
-
-#enderecol {
-  font-size: 1.875rem;
-  margin-left: 30px;
-  margin-bottom: 5px;
-}
-
-#complemento {
-  background: #fff;
-  border-radius: 40px;
-  width: 300px;
-  height: 35px;
-  text-align: start;
-  margin-bottom: 30px;
-  font-size: 1.563rem;
-  border-width: 1px;
-  margin-left: 30px;
-}
-
-#complementol {
-  font-size: 1.875rem;
-  margin-left: 30px;
-  margin-bottom: 5px;
-}
-
-#bairro {
-  background: #fff;
-  border-radius: 40px;
-  width: 280px;
-  height: 35px;
-  text-align: start;
-  margin-bottom: 30px;
-  font-size: 1.563rem;
-  border-width: 1px;
-  margin-left: 30px;
-}
-
-#bairrol {
-  font-size: 1.875rem;
-  margin-left: 30px;
-  margin-bottom: 5px;
-}
-
-#cidade {
-  background: #fff;
-  border-radius: 40px;
-  width: 280px;
-  height: 35px;
-  text-align: start;
-  margin-bottom: 30px;
-  font-size: 1.563rem;
-  border-width: 1px;
-  margin-left: 30px;
-}
-
-#cidadel {
-  font-size: 1.875rem;
-  margin-left: 30px;
-  margin-bottom: 5px;
-}
-
-#estado {
-  background: #fff;
-  border-radius: 40px;
-  width: 300px;
-  height: 35px;
-  text-align: start;
-  margin-bottom: 30px;
-  font-size: 1.563rem;
-  border-width: 1px;
-  margin-left: 30px;
-}
-
-#estadol {
-  font-size: 1.875rem;
-  margin-left: 30px;
-  margin-bottom: 5px;
-}
-
-.selection {
-  margin-left: 30px;
-}
-
-.questions {
-  margin-top: 30px;
-  font-size: 2.375rem;
+.separacao {
   margin-bottom: 30px;
 }
 
-.checkbox {
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
-  margin-right: 10px;
-}
-
-.options {
-  display: flex;
-  font-size: 2rem;
-  align-items: center;
-  margin-bottom: 15px;
-}
-
-.meios {
-  margin-top: 30px;
-  font-size: 2.375rem;
-  margin-bottom: 15px;
-}
-.meio {
-  background: #fff;
-  border-radius: 30px;
-  width: 300px;
-  height: 40px;
-  text-align: start;
-  margin-bottom: 15px;
-  font-size: 1.563rem;
-  border-width: 1px;
-}
-
-#btnDois {
-  font-family: Poppins;
-  font-weight: 600;
-  color: #ffffff;
-  padding: 10px 20px;
-  border: none;
-  background: #d6024e;
-  border-radius: 80px;
-  box-shadow: 1px 1px 1px rgb(29, 29, 29);
-  border: none;
-  cursor: pointer;
-  transition: all 300ms ease-out;
-  margin-left: 30px;
-  font-size: 1.5rem;
-  margin-top: 15px;
-  margin-bottom: 40px;
-}
-
-#btnDois:hover {
-  transform: scale(1.1);
-  background-position: left bottom;
-  background-color: #d6024e;
-  color: #ffffff;
+#mainDois {
+  padding: 50px;
+  font-size: 2.188rem;
+  text-align: center;
+  margin-bottom: 100px;
 }
 
 .container {
@@ -394,22 +157,22 @@ form {
   font-size: 1.563rem;
 }
 
-#contribua {
+#volunt {
   position: absolute;
   top: 20%;
-  left: 430px;
+  left: 500px;
   margin-left: 100px;
   background-color: transparent;
   text-align: start;
 }
 
-#tituloContribua {
+#tituloVolunt {
   background-color: transparent;
   margin-bottom: 15px;
   font-size: 2.5rem;
 }
 
-#textContribua {
+#textVolunt {
   background-color: transparent;
   font-size: 1.563rem;
 }
@@ -432,13 +195,6 @@ form {
   margin-bottom: 40px;
 }
 
-btnTres:hover {
-  transform: scale(1.1);
-  background-position: left bottom;
-  background-color: #d6024e;
-  color: #ffffff;
-}
-
 #form {
   position: absolute;
   top: 20%;
@@ -457,7 +213,7 @@ btnTres:hover {
   color: #000;
 }
 
-#nome {
+#name {
   background: #fff;
   border-radius: 30px;
   width: 100%;
@@ -467,7 +223,7 @@ btnTres:hover {
   font-size: 1.563rem;
   border-width: 1px;
 }
-#emailBotton {
+#email {
   background: #fff;
   border-radius: 30px;
   width: 100%;
@@ -477,7 +233,7 @@ btnTres:hover {
   font-size: 1.563rem;
   border-width: 1px;
 }
-#textBotton {
+#text {
   background: #fff;
   border-radius: 30px;
   width: 100%;
@@ -487,7 +243,7 @@ btnTres:hover {
   border-width: 1px;
 }
 
-#btnQuatro {
+#btnDois {
   font-family: Poppins;
   font-weight: 600;
   color: #ffffff;
@@ -503,7 +259,7 @@ btnTres:hover {
   font-size: 1.5rem;
 }
 
-#btnQuatro:hover {
+#btnDois:hover {
   transform: scale(1.1);
   background-position: left bottom;
   background-color: #d6024e;
@@ -528,6 +284,7 @@ btnTres:hover {
   background-color: transparent;
   text-decoration: none;
 }
+/* Responsividade :D */
 
 @media only screen and (max-width: 1920px) {
   #header h1 {
@@ -537,6 +294,24 @@ btnTres:hover {
   .navegador {
     margin-right: 10%;
     font-size: 30px;
+  }
+
+  #nuvensUm {
+    margin-right: 2%;
+    margin-left: -8%;
+  }
+
+  #nuvemTres.nuvens {
+    margin-left: 4.2%;
+    margin-right: 66%;
+  }
+
+  #volunt {
+    margin-left: 15%;
+  }
+
+  #form {
+    margin-right: 6%;
   }
 
   ::placeholder {
@@ -549,16 +324,45 @@ btnTres:hover {
     margin-right: 3%;
     font-size: 25px;
   }
+
+  #nuvensUm {
+    margin-right: 6%;
+  }
+
+  #nuvemTres.nuvens {
+    margin-left: 4.2%;
+    margin-right: 63%;
+  }
+
+  #main {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #volunt {
+    margin-left: 8%;
+  }
 }
 
 @media only screen and (max-width: 1440px) {
   .navegador {
     font-size: 20px;
   }
+
+  #nuvensUm {
+    margin-left: 0%;
+  }
+
+  #nuvemTres.nuvens {
+    margin-right: 60%;
+  }
+  #volunt {
+    margin-left: 1%;
+  }
 }
 
 @media only screen and (max-width: 1280px) {
-  #contribua {
+  #volunt {
     margin-left: -6%;
   }
 }
@@ -581,15 +385,46 @@ btnTres:hover {
     margin-left: -3%;
   }
 
+  .nuvens {
+    width: 150px;
+    height: 100px;
+  }
+
+  #nuvensUm {
+    margin-left: -2%;
+    margin-right: 10%;
+  }
+
+  #nuvemTres.nuvens {
+    margin-right: 59%;
+  }
+
+  #main {
+    font-size: 20px;
+  }
+
+  #boxDoacoes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(175px, 2fr));
+  }
+
+  .doacoes {
+    font-size: 25px;
+  }
+
+  #mainDois {
+    font-size: 22px;
+  }
+
   #endereco {
     margin-left: 3%;
   }
 
-  #contribua {
+  #volunt {
     margin-left: -20%;
   }
   #form {
-    margin-right: -4%;
+    margin-right: 2%;
   }
 
   #separaEndereco {
@@ -603,36 +438,33 @@ btnTres:hover {
     font-size: 16px;
   }
 
-  #tituloContribua {
+  #tituloVolunt {
     font-size: 22px;
   }
 
-  #textContribua {
+  #textVolunt {
     font-size: 16px;
   }
 
   #mensagem {
     font-size: 22px;
   }
-  #nome {
+  #name {
     font-size: 16px;
-    width: 60%;
-    margin-bottom: 4%;
   }
 
-  #emailBotton {
+  #email {
     font-size: 16px;
-    width: 60%;
-    margin-bottom: 4%;
   }
 
-  #textBotton {
+  #text {
     font-size: 16px;
     height: 49px;
-    width: 60%;
+  }
+  #qrCodigo {
+    width: 100px;
   }
 }
-
 @media only screen and (max-width: 800px) {
   #header h1 {
     margin-left: 3%;
@@ -647,97 +479,32 @@ btnTres:hover {
   .li {
     margin-right: 15%;
   }
-
-  #namel {
-    font-size: 17px;
+  #nuvensUm {
+    margin-left: 10%;
   }
-  #phonel {
-    font-size: 17px;
-  }
-
-  #emaill {
-    font-size: 17px;
+  .nuvens {
+    width: 130px;
   }
 
-  #CEPl {
-    font-size: 17px;
+  #main {
+    font-size: 16px;
   }
-
-  #enderecol {
-    font-size: 17px;
-  }
-  #complementol {
-    font-size: 17px;
-  }
-  #bairrol {
-    font-size: 17px;
-  }
-  #cidadel {
-    font-size: 17px;
-  }
-  #estadol {
-    font-size: 17px;
-  }
-
-  #voluntariaIMG {
-    width: 70px;
-  }
-
-  #name {
-    width: 340px;
-  }
-
-  #phone {
-    width: 160px;
-  }
-
-  #email {
-    width: 340px;
-  }
-
-  #enderecoForm {
-    width: 340px;
-  }
-  #CEP {
-    width: 160px;
-  }
-
-  #complemento {
-    width: 160px;
-  }
-
-  #bairro {
-    width: 160px;
-  }
-
-  #cidade {
-    width: 190px;
-  }
-
-  #estado {
-    width: 200px;
-  }
-
-  .questions {
+  .doacoes {
     font-size: 20px;
   }
-
-  .meios {
-    font-size: 20px;
-  }
-  .options {
-    font-size: 20px;
+  #mainDois {
+    font-size: 16px;
   }
 
   #endereco {
     margin-left: 3%;
   }
 
-  #contribua {
+  #volunt {
     margin-left: -27%;
   }
   #form {
-    margin-right: -11%;
+    margin-right: 5%;
   }
 
   #separaEndereco {
@@ -751,43 +518,43 @@ btnTres:hover {
     font-size: 14px;
   }
 
-  #tituloContribua {
+  #tituloVolunt {
     font-size: 16px;
   }
 
-  #textContribua {
+  #textVolunt {
     font-size: 14px;
     max-width: 200px;
   }
 
   #btnTres {
-    font-size: 14px;
+    font-size: 12px;
     margin-left: 10%;
   }
 
   #mensagem {
     font-size: 16px;
   }
-  #nome {
+  #name {
     font-size: 14px;
     height: 30px;
     margin-bottom: 15px;
   }
 
-  #emailBotton {
+  #email {
     font-size: 14px;
     height: 30px;
     margin-bottom: 15px;
   }
 
-  #textBotton {
+  #text {
     font-size: 14px;
     height: 30px;
     margin-bottom: 10px;
   }
 
-  #btnQuatro {
-    font-size: 14px;
+  #btnDois {
+    font-size: 12px;
   }
 
   #copyright {
@@ -815,96 +582,46 @@ btnTres:hover {
     margin-right: 15%;
   }
 
-  #namel {
-    font-size: 17px;
-  }
-  #phonel {
-    font-size: 17px;
+  .nuvens {
+    width: 120px;
+    height: 100px;
   }
 
-  #emaill {
-    font-size: 17px;
+  #nuvensUm {
+    margin-left: 5%;
+    margin-right: 17%;
   }
 
-  #CEPl {
-    font-size: 17px;
+  #nuvemTres.nuvens {
+    margin-right: 55%;
   }
 
-  #enderecol {
-    font-size: 17px;
-  }
-  #complementol {
-    font-size: 17px;
-  }
-  #bairrol {
-    font-size: 17px;
-  }
-  #cidadel {
-    font-size: 17px;
-  }
-  #estadol {
-    font-size: 17px;
+  #main {
+    margin-top: 4%;
+    font-size: 16px;
   }
 
-  #voluntariaIMG {
-    width: 70px;
-  }
-
-  #name {
-    width: 340px;
-  }
-
-  #phone {
-    width: 160px;
-  }
-
-  #email {
-    width: 340px;
-  }
-
-  #enderecoForm {
-    width: 340px;
-  }
-  #CEP {
-    width: 160px;
-  }
-
-  #complemento {
-    width: 160px;
-  }
-
-  #bairro {
-    width: 160px;
-  }
-
-  #cidade {
-    width: 190px;
-  }
-
-  #estado {
-    width: 200px;
-  }
-
-  .questions {
+  .doacoes {
     font-size: 20px;
   }
-
-  .meios {
-    font-size: 20px;
+  #qrCodigo {
+    width: 100px;
   }
-  .options {
-    font-size: 20px;
+
+  #mainDois {
+    font-size: 16px;
+    margin-bottom: 4%;
   }
 
   #endereco {
     margin-left: 3%;
   }
 
-  #contribua {
-    margin-left: -37%;
+  #volunt {
+    margin-left: -30%;
   }
   #form {
-    margin-right: -11%;
+    margin-right: 7%;
   }
 
   #separaEndereco {
@@ -918,11 +635,11 @@ btnTres:hover {
     font-size: 14px;
   }
 
-  #tituloContribua {
+  #tituloVolunt {
     font-size: 16px;
   }
 
-  #textContribua {
+  #textVolunt {
     font-size: 14px;
     max-width: 200px;
   }
@@ -935,26 +652,30 @@ btnTres:hover {
   #mensagem {
     font-size: 16px;
   }
-  #nome {
+  #name {
     font-size: 14px;
     height: 30px;
     margin-bottom: 15px;
   }
 
-  #emailBotton {
+  #email {
     font-size: 14px;
     height: 30px;
     margin-bottom: 15px;
   }
 
-  #textBotton {
+  #text {
     font-size: 14px;
     height: 30px;
     margin-bottom: 10px;
   }
 
-  #btnQuatro {
+  #btnDois {
     font-size: 14px;
+  }
+
+  #qrCodigo {
+    width: 100px;
   }
 
   #copyright {
@@ -963,17 +684,33 @@ btnTres:hover {
   }
 
   #devs {
-    margin-bottom: -0.7%;
+    margin-bottom: -0.5%;
+  }
+
+  .container {
+    top: 20px;
   }
 }
 
 @media only screen and (max-width: 720px) {
+  #nuvemTres.nuvens {
+    margin-right: 50%;
+    margin-left: 8%;
+  }
+
   #header {
     margin-right: 5%;
   }
 
+  #nuvensUm {
+    margin-left: 13%;
+  }
+
+  #volunt {
+    margin-left: -37%;
+  }
   #form {
-    margin-right: -10%;
+    margin-right: 3%;
   }
 
   #btnDois {
@@ -984,20 +721,8 @@ btnTres:hover {
     font-size: 10px;
   }
 
-  #btnQuatro {
-    font-size: 14px;
-  }
-
-  #nome {
-    margin-bottom: 10px;
-  }
-
-  #emailBotton {
-    margin-bottom: 10px;
-  }
-
-  #textBotton {
-    margin-bottom: 10px;
+  #text {
+    margin-bottom: 3%;
   }
 }
 
@@ -1010,52 +735,78 @@ btnTres:hover {
     margin-right: 0%;
   }
 
-  #btnUm {
-    font-size: 9px;
-  }
   .navegador {
     margin-right: 4%;
   }
-
-  #estado {
-    width: 110px;
+  .nuvens {
+    width: 100px;
+    height: 100px;
   }
-  #contribua {
+  #main {
+    font-size: 14px;
+  }
+
+  .doacoes {
+    font-size: 17px;
+  }
+
+  #mainDois {
+    font-size: 14px;
+  }
+
+  #volunt {
     margin-left: -50%;
   }
+
   #form {
-    margin-right: -18%;
+    margin-right: 0%;
   }
 
   #btnDois {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   #btnTres {
     font-size: 8px;
   }
-
-  #btnQuatro {
-    font-size: 8px;
+  #separaEndereco {
+    font-size: 16px;
   }
+
+  #separaTexto {
+    font-size: 13px;
+  }
+
+  #separaFone {
+    font-size: 13px;
+  }
+
+  #tituloVolunt {
+    font-size: 16px;
+  }
+
+  #textVolunt {
+    font-size: 13px;
+  }
+
   #mensagem {
     font-size: 15px;
     margin-bottom: 2%;
   }
 
-  #nome {
+  #name {
     margin-bottom: 10px;
     width: 140px;
     height: 20px;
   }
 
-  #emailBotton {
+  #email {
     margin-bottom: 10px;
     width: 140px;
     height: 20px;
   }
 
-  #textBotton {
+  #text {
     margin-bottom: 10px;
     width: 140px;
     height: 20px;
