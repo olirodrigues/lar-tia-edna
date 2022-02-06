@@ -45,6 +45,12 @@ h1 {
 .li {
   margin-right: 56px;
   margin-top: 0px;
+
+}
+a {
+  font-style: none;
+  text-decoration: none;
+  color: #000;
 }
 
 #btnUm {
@@ -65,6 +71,7 @@ h1 {
 .icone {
   display: none;
 }
+
 
 #btnUm:hover {
   transform: scale(1.1);
@@ -288,6 +295,9 @@ img {
 
 
 @media only screen and (max-width: 1920px) {
+  .li {
+    font-size: 27px;
+  }
 
   #header h1 {
     margin-left: 3%;
@@ -322,6 +332,9 @@ img {
   }
 
   @media only screen and (max-width: 1600px) {
+    .li {
+      font-size: 23px;
+    }
   
   .navegador {
     margin-right: 3%;
@@ -367,6 +380,10 @@ img {
   }
 
   @media only screen and (max-width: 1280px) {
+    .li {
+      font-size: 23px;
+      margin-left: -4%;
+    }
    
     #volunt {
      margin-left: -6%;
@@ -478,6 +495,10 @@ img {
 
   }
   @media only screen and (max-width: 800px) {
+    .li {
+      font-size: 18px;
+      margin-left: -4%;
+    }
     #header h1 {
       margin-left: 3%;
     }
@@ -751,6 +772,12 @@ img {
   }
 
   @media only screen and (max-width: 600px) {
+    .li a {
+      font-size: 11px;
+    }
+    .footerImg {
+      margin-top: 2.5%;
+    }
 
     
     #header {
@@ -851,6 +878,9 @@ img {
       margin-right: 70%;
       font-size: 16px;
       margin-top: 6%;
+    }
+    .li a {
+      font-size: 16px;
     }
   
     .navegador {
@@ -1010,6 +1040,9 @@ img {
   .footerImg {
     display: none;
   }
+  .container {
+    margin-top: 20%;
+  }
   .footerImgMobile {
     width: 100%;
     display: block;
@@ -1070,6 +1103,9 @@ img {
 }
 
 @media only screen and (max-width: 393px) { 
+  .container {
+    margin-top: 24%;
+  }
   .footerImgMobile {
     margin-top: 15.3%;
   }
@@ -1167,10 +1203,13 @@ img {
   margin-top: 25%
 }
 
+.container {
+  margin-top: 27%;
+}
+
 .footerImgMobile {
   margin-top: 18.3%;
 }
-
 
 #mensagem {
   margin-top: -4%;
