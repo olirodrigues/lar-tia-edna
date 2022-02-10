@@ -5,7 +5,6 @@ const btnFecha = document.querySelector('.iconeFechar')
 const btncontribua = document.querySelector('#btnCont')
 const escondeHome = document.querySelector('.homeMenu')
 
-
 btnAbre.onclick = function() {
     menu.style.display = "block"
     btncontribua.style.display = "none"
@@ -30,7 +29,6 @@ function lerMore() {
     let textoEdna = document.getElementById('escondeText');
     if(textoEdna.className === "hideText") {
         textoEdna.className += ".aparece"; 
-
     } else {
         textoEdna.className = "hideText";
     }

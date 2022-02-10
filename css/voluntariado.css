@@ -28,7 +28,18 @@ textarea {
 ul {
   list-style: none;
 }
-
+.menuM {
+  display: none;
+  position: fixed;
+  left: 64.5%;
+  top: 0.4%;
+}
+.icone {
+  display: none;
+}
+.footerImgMobile {
+  display: none;
+}
 button {
   font-family: Poppins;
   color: #ffffff;
@@ -1061,7 +1072,510 @@ btnTres:hover {
     height: 20px;
   }
 }
+@media only screen and (max-width: 414px) {
 
+  #header h1 {
+    margin-top: 4%;
+    margin-left: 6%;
+    margin-bottom: 0%;
+    font-size: 26px;
+  }
+  .li {
+    margin-right: 57%;
+    margin-top: 6%;
+  }
+  .navegador {
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 9%;
+}
+#btnUm {
+  font-size: 10px;
+  margin: 3px 0 0 0;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 11px;
+  padding-left: 11px;
+}
+.navegador li:not(:first-child) {
+  display:none;
+}
+
+.icone {
+  float: right;
+  display: block;
+  font-size: 26px;
+  color: #000;
+  margin-right: 20%;
+  margin-left: -45%;
+  margin-top: 2%;
+  background-color: transparent;
+}
+.iconeFechar {
+  font-size: 26px;
+  margin-right: 20%;
+  margin-left: -4.5%;
+  margin-top: 13.5%;
+  color: #000;
+  display: block;
+  background-color: transparent;
+}
+.menuItens {
+  margin-left: 6%;
+  margin-top: -22%;
+  background-color: #ffffff;
+  padding: 8%;
+  padding-top: 30%;
+  border: 1px solid #888;
+  border-radius: 7%;
+  width: 90%;    animation-name: animatetop;
+  animation-duration: 0.2s
+ }
+ .menu-itens {
+  background-color: transparent;
+ }
+ #btnConMenu {
+  font-size: 11px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 4px;
+  padding-left: 4px;
+  margin-left: 2%;
+  margin-bottom: 4%;
+  margin-top: 8%;
+  font-family: Poppins;
+  color: #ffffff;
+  border: none;
+  background: #d6024e;
+  border-radius: 80px;
+ }
+
+ .menuM {
+   background-color: transparent;
+ }
+ 
+ .homeMenuLi {
+   display: none;
+   margin-bottom: -60%;
+ }
+ .homeSobreLi {
+   font-size: 25px;
+   text-decoration: none;
+   background-color: #ffffff;
+ margin-top: -40%;
+ }
+ .homeFinalidadeLi{
+  font-size: 25px;
+  background-color: #ffffff;
+ }
+ .homeObjetivosLi {
+  font-size: 25px;
+  background-color: #ffffff;
+ }
+ .homeVoluntariadoLi {
+  font-size: 25px;
+  background-color: #ffffff;
+ }
+ .homeContato {
+  text-decoration: none;
+  color: #000;
+  list-style: none;
+  background-color: #ffffff;
+ }
+ .homeContatoLi {
+  font-size: 25px;
+  background-color: #ffffff;
+ }
+ .homeSobre {
+  text-decoration: none;
+  color: #000;
+  list-style: none;
+  background-color: #ffffff;
+}
+.homeFinalidade{
+  text-decoration: none;
+  color: #000;
+  list-style: none;
+  background-color: #ffffff;
+}
+.homeObjetivos {
+  text-decoration: none;
+  color: #000;
+  list-style: none;
+  background-color: #ffffff;
+}
+.homeVoluntariado {
+  text-decoration: none;
+  color: #000;
+  list-style: none;
+  background-color: #ffffff;
+}
+
+#voluntariaIMG {
+  margin-top: -20%;
+  margin-left: -60%;
+  width: 130px;
+  margin-bottom: 30px;
+}
+#volu {
+  margin-top: 27%;
+  margin-left: 22%;
+  margin-bottom: 10%;
+}
+
+#name { 
+  width: 160px;
+  border-radius: 13px;
+  font-size: 15px;
+  margin-left: 25px;
+}
+#namel {
+  font-size: 15px;
+  margin-bottom: -2px;
+  margin-left: 25px;
+}
+
+#phone {
+  width: 160px;
+  border-radius: 13px;
+  font-size: 15px;
+  margin-left: 25px;
+}
+
+#phonel {
+  font-size: 15px;
+  margin-bottom: -2px;
+  margin-left: 25px;
+}
+
+#email {
+  width: 160px;
+  border-radius: 13px;
+  font-size: 15px;
+  margin-left: 25px;
+}
+
+#emaill {
+  font-size: 15px;
+  margin-bottom: -2px;
+  margin-left: 25px;
+}
+
+#CEP {
+  width: 160px;
+  border-radius: 13px;
+  font-size: 15px;
+  margin-left: 25px;
+}
+
+#CEPl {
+  font-size: 15px;
+  margin-bottom: -2px;
+  margin-left: 25px;
+}
+
+#enderecoForm {
+  width: 160px;
+  border-radius: 13px;
+  font-size: 15px;
+  margin-left: 25px;
+}
+
+#enderecol {
+  font-size: 15px;
+  margin-bottom: -2px;
+  margin-left: 25px;
+}
+
+#complemento {
+  width: 160px;
+  border-radius: 13px;
+  font-size: 15px;
+  margin-left: 25px;
+}
+
+#complementol {
+  font-size: 15px;
+  margin-bottom: -2px;
+  margin-left: 25px;
+}
+#bairro {
+  width: 160px;
+  border-radius: 13px;
+  font-size: 15px;
+  margin-left: 25px;
+}
+
+#bairrol {
+  font-size: 15px;
+  margin-bottom: -2px;
+  margin-left: 25px;
+}
+#cidade {
+  width: 160px;
+  border-radius: 13px;
+  font-size: 15px;
+  margin-left: 25px;
+}
+
+#cidadel {
+  font-size: 15px;
+  margin-bottom: -2px;
+  margin-left: 25px;
+}
+
+#estado {
+  width: 160px;
+  border-radius: 13px;
+  font-size: 15px;
+position: absolute;
+left: 0;
+top: 753px;
+margin-left: 25px;
+}
+#estadol {
+  font-size: 15px;
+  margin-bottom: -2px;
+  position: absolute;
+left: 0;
+top: 730px;
+margin-left: 25px;
+}
+
+.selection {
+  margin-top: 20%;
+}
+.questions {
+  font-size: 16px;
+}
+.options {
+  font-size: 19px;
+}
+.options label{
+  margin-bottom: 13px;
+}
+.meios {
+  font-size: 16px;
+}
+.meio {
+  width: 200px;
+  border-radius: 13px;
+  font-size: 15px;
+}
+.footerImg {
+  display: none;
+}
+.footerImgMobile {
+  width: 100%;
+  display: block;
+}
+#endereco {
+  left: 130px;
+  top: 40px;
+}
+#separaFone {
+margin-top: -6%;
+}
+#contribua {
+  display: none;
+}
+#form {
+  left: 10px;
+  top: 170px
+}
+#btnQuatro {
+  padding: 5px 10px 5px 10px;
+  box-shadow: none;
+}
+#nome {
+  margin-bottom: 3px;
+  font-size: 11px;
+}
+#emailBotton {
+  margin-bottom: 3px;
+  font-size: 11px;
+}
+#textBotton {
+  margin-bottom: 3px;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 11px;
+}
+#mensagem {
+  font-size: 18px;
+}
+#copyright {
+  margin-left: 10px;
+  margin-bottom: -7px;
+  font-size: 7px;
+}
+#devs {
+  margin-right: 10px;
+  margin-bottom: -7px;
+  font-size: 7px;
+}
+}
+@media only screen and (max-width: 412px) {
+
+.questions {
+  font-size: 15px;
+}
+}
+@media only screen and (max-width: 393px) {
+
+  .iconeFechar {
+    margin-left: -14.5%;
+    margin-top: 12.5%;
+    color: #000;
+  }
+  .menuItens {
+    margin-left: -4%;
+    margin-top: -22%;
+    background-color: #ffffff;
+    padding: 8%;
+    padding-top: 30%;
+
+   }
+   #voluntariaIMG {
+    margin-left: -63%;
+  }
+  #volu {
+    margin-left: 17%;
+  }
+  #name { 
+    margin-left: 14px;
+  }
+  #namel {
+    margin-left: 14px;
+  }
+  #email {
+    margin-left: 14px;
+  }
+  
+  #emaill {
+    margin-left: 14px;
+  }
+  #enderecoForm {
+    margin-left: 14px;
+  }
+  #enderecol {
+    margin-left: 14px;
+  }
+  #bairro {
+    margin-left: 14px;
+  }
+  #bairrol {
+    margin-left: 14px;
+  }  
+  #estado {
+  margin-left: 14px;
+  }
+  #estadol {
+  margin-left: 14px;
+  }
+  .questions {
+    font-size: 14px;
+  }
+  #textBotton {
+    margin-bottom: 3px;
+    height: 26px;
+  }
+  #mensagem {
+    font-size: 17px;
+  }
+  }
+  @media only screen and (max-width: 375px) {
+    .menuItens {
+      margin-left: -14%;
+    }
+    .iconeFechar {
+      margin-left: -25%;
+    }
+    #estado {
+      top: 115%;
+    }
+    #estadol {
+      top: 111%;
+    }
+    .options label {
+      font-size: 11px;
+    }
+    .meios {
+      font-size: 14px;
+      margin-bottom: 1%;
+    }
+    .meio {
+      width: 150px;
+      height: 37px;
+    }
+    #separaEndereco {
+      font-size: 15px;
+    }
+    #separaTexto {
+      font-size: 12px;
+    }
+    #separaFone {
+      font-size: 12px;
+    }
+    #form {
+      margin-top: -4%;
+      margin-left: -3%;
+    }
+    #mensagem {
+      font-size: 15px;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    #header h1 {
+      font-size: 22px;
+    }
+    .navegador {
+      margin-right: 6%;
+    }
+    .iconeFechar {
+      margin-left: -23%;
+      margin-top: 11%;
+    }
+    #voluntariaIMG {
+      margin-left: -70%;
+    }
+    #name { 
+      width: 150px;
+    }
+    #phone {
+      width: 150px;
+    }
+    #email {
+      width: 150px;
+    }
+    #CEP {
+      width: 150px;
+    }
+    #enderecoForm {
+      width: 150px;
+    }
+    #complemento {
+      width: 150px;
+    }
+    #bairro {
+      width: 150px;
+    }  
+    #cidade {
+      width: 150px;
+    }
+    #estado {
+      width: 150px;
+    }
+    #endereco {
+      margin-left: 1%;
+      margin-top: -2%;
+    }
+    #form {
+      margin-top: -6.5%;
+      margin-left: -6%;
+    }
+
+  }
 /*****************************************************/
 /***************** BOTÕES FLUTUANTES *****************/
 /*****************************************************/
