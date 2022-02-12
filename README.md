@@ -29,10 +29,12 @@ O objetivo principal do grupo é atuar na criação de um novo website que seja 
 - [x] Páginas atualizadas e funcionais.
 - [x] Utilização da API FormSubmit para envio dos formulários à ONG.
 - [x] Utilização da API VLibras para acessibilidade.
-- [x] Resposividade.
+- [x] Resoluções aceitas:
+      1920px, 1600px, 1440px, 1366px, 1280px, 1024px, 800px, 600px, 768px, 720px, 414px, 412px, 393px, 375px, 360px.
 - [x] Criação da opção de pagamentos em PIX através de QR Code.
 - [x] Redirecionamento do Site para as Redes Sociais.
 - [x] Redes Sociais atualizadas.
+
 <p><br></p>
 
 ## ✅ Demonstração da aplicação
