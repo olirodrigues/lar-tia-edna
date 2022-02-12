@@ -19,14 +19,44 @@
       <div id="header">
         <h1>Lar Tia Edna</h1>
           <nav class="navegador" id="meuNavegador">
-              <li class="li"><a href="/index.html">Home</a></li>
-              <li class="li"><a href="/index.html#sobre">Sobre o Lar</a></li>
-              <li class="li"><a href="/index.html#finalidade">Finalidade</a></li>
-              <li class="li"><a href="/index.html#objetivos">Objetivos</a></li>
-              <li class="li"><a href="/src/pages/voluntariado.html">Voluntariado</a></li>
+              <li class="li"><a href="/lar-tia-edna/index.html">Home</a></li>
+              <li class="li"><a href="/lar-tia-edna/index.html#sobre">Sobre o Lar</a></li>
+              <li class="li"><a href="/lar-tia-edna/index.html#finalidade">Finalidade</a></li>
+              <li class="li"><a href="/lar-tia-edna/index.html#objetivos">Objetivos</a></li>
+              <li class="li"><a href="/lar-tia-edna/src/pages/voluntariado.html">Voluntariado</a></li>
               <li class="li"><a href="#form">Contato</a></li>
-              <button id="btnUm" onclick="location.href='/contribua/contribua.html';">Contribua</button> 
+              <a href="javascript:void(0);" class="icone" >
+                <i class="fa fa-bars"></i>
+                </a>
+              <button id="btnUm" onclick="location.href='/lar-tia-edna/pages/contribua.html';">Contribua</button> 
           </nav>
+      </div>
+      <div id="menuMobil" class="menuM">
+        <div class="menu-itens">
+          <a href="javascript:void(0);" class="iconeFechar" >
+            <i class="fa fa-bars"></i>
+          <ul class="menuItens" id="itensMenu">
+              </a>
+            <li class="homeMenuLi">
+              <a class="homeMenu" href="/lar-tia-edna/index.html">Home</a>
+            </li>
+            <li  class="homeSobreLi">
+              <a class="homeSobre" href="/lar-tia-edna/index.html/#sobre">Sobre o Lar</a>
+            </li>
+            <li class="homeFinalidadeLi">
+              <a class="homeFinalidade" href="/lar-tia-edna/index.html/#finalidade">Finalidade</a>
+            </li>
+            <li class="homeObjetivosLi">
+              <a class="homeObjetivos" href="/lar-tia-edna/index.html/#objetivos">Objetivos</a>
+            </li>
+            <li class="homeVoluntariadoLi">
+              <a class="homeVoluntariado" href="/lar-tia-edna/src/pages/voluntariado.html">Voluntariado</a>
+            </li>
+            <li  class="homeContatoLi">
+              <a class="homeContato" href="#form">Contato</a>
+            </li>
+            <button id=btnConMenu>Contribua</button>
+        </div>
       </div>
     </header>
     <main>
@@ -216,7 +246,8 @@
     </main>
   </form>
     <footer class="container">
-      <img id="corte" src="/lar-tia-edna/img/contribua- footer.svg" alt="">
+      <img id="corte" class="footerImg" src="/lar-tia-edna/img/contribua- footer.svg" alt="">
+      <img class="footerImgMobile" src="/lar-tia-edna/img/contribua- footer -mobile.png">
       <section>
           <div id="endereco">
             <p id="separaEndereco">Endereço</p>
@@ -262,5 +293,7 @@
       </a>
     </div>
   </body>
-  <script src="../components/index.js "></script>
+  <script src="/lar-tia-edna/src/components/index.js"></script>
+      <script src ="/lar-tia-edna/src/components/menuResponsivo.js">
+        </script>
 </html>
