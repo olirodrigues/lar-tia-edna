@@ -607,10 +607,160 @@ textarea {
   #rodape3 {
     margin-bottom: 0.5%;
   }
+
+#emailBotton {
+height: 5px;
+margin-bottom: 10%;
 }
+#mensagemInput {
+  height: 25px;
+  margin-bottom: 10%;
+}
+#form-contato button{
+padding: 5px 1px 5px 1px;
+}
+#rodape3 {
+margin-bottom: 0.5%;
+}
+}
+
 
 @media only screen and (max-width: 414px) {
   .hideText.aparece {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .iconeFechar {
+    margin-left: -21.5%;
+ }
+ #sobreFoto {
+  margin-top: -9%;
+}
+}
+
+@media only screen and (max-width: 375px) {
+  .iconeFechar {
+    margin-left: -35.5%;
+    margin-top: 1%
+ }
+ .menuItens {
+  margin-left: -4%;
+  padding: 12%;
+  padding-top: 4%;
+  width: 110%;
+ }
+
+ #sobreFoto {
+  margin-top: -9%;
+}
+
+#menu h1 {
+font-size: 22px;
+}
+.navegador {
+  margin-left: 10%;
+}
+.navegador .icone {
+    float: right;
+    display: block;
+    margin-left: 8%;
+    margin-right: 10%;
+  }
+  .navegador button {
+    margin-top: 1%;
+    margin-right: 130%;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 11px;
+    padding-left: 11px;
+  }
+
+  .homeSobre {
+    font-size: 12px;
+  }
+  .homeSobreLi  {
+    margin-top: -20%;
+    margin-bottom: 5%;
+  }
+  
+  .homeFinalidade {
+    font-size: 12px;
+  }
+  .homeFinalidadeLi {
+    margin-bottom: 5%;
+  }
+  .homeObjetivos {
+    font-size: 12px;
+  }
+  .homeObjetivosLi {
+    margin-bottom: 5%;
+  }
+  .homeVoluntariado {
+    font-size: 12px;
+  }
+  .homeVoluntariadoLi {
+    margin-bottom: 5%;
+  }
+  .homeContato {
+    font-size: 12px;
+  }
+  .homeContatoLi{
+    margin-bottom: 8%;
+  }
+  #sobre1 {
+    margin-left: -90%;
+    margin-right: -90%;
+  }
+  #margemClic{
+    margin-left: -10%;
+    margin-right: -10%;
+  }
+  #finalidade2{
+    margin-top: 13%;
+  }
+  #sobreFoto {
+    margin-top: -10%;
+    width: 46%;
+  }
+  #finalidade1 h3 {
+    font-size: 16px;
+    margin-left: 0% ;
+  }
+  #finalidade1 .h3-laranja {
+    font-size: 16px;
+
+  }
+  #objetivos1 {
+    margin-top: 30%;
+  }
+}
+
+@media only screen and (max-width: 360px) { 
+  .iconeFechar {
+    margin-left: -15.5%;
+    margin-top: 1%
+ }
+ .menuItens {
+  margin-left: 13%;
+  padding: 12%;
+  padding-top: 4%;
+  width: 110%;
+ }
+   #sobre1 {
+    margin-left: -85%;
+    margin-right: -75%;
+  }
+  #margemClic{
+    margin-left: -10%;
+    margin-right: -5%;
+  }
+  #lerMais {
+    margin-left: 35%;
+  }
+  #rodape3 {
+    margin-bottom: 2%;
   }
 }
